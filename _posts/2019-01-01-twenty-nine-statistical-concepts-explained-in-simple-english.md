@@ -1,7 +1,9 @@
 ---
 title: 쉽게 풀어 쓴 29가지 통계 개념(29 Statistical Concepts Explained in Simple English)
 date: 2019-01-01
-category: translation statistics
+category: 
+    - translation 
+    - statistics
 source: https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1
 ---
 
