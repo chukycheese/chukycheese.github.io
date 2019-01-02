@@ -9,7 +9,7 @@ source: https://www.datasciencecentral.com/profiles/blogs/29-statistical-concept
 
 이 자료는 데이터 과학과 관련된 특정 주제에 대한 연재물이며, 다룰 주제는 다음과 같다. 회귀분석, 군집화, 신경망, 딥러닝, 의사결정나무, 앙상블, 상관관계, 파이썬, R, 텐서플로우, SVM, 데이터 축소, 피쳐 선택, 실험 계획법, 교차검증, 모델 피팅 등. 이 글을 계속 받아보려면 [DSC](https://www.datasciencecentral.com/profiles/blogs/check-out-our-dsc-newsletter) 에 가입하길 바란다.
 
-* [통계학에서의 10% 조건이란 무엇인가?](https://chukycheese.github.io/translation/statistics/ten-condition/)
+* [통계학에서의 10% 조건이란 무엇인가?](2019-01-02-ten-condition.md)
 * 통계학에서의 68, 95, 99.7 법칙
 * 절대 오차(Absolute Error)와 평균 절대 오차(Mean Absolute Error, MAE)
 * 정확도(Accuracy) 와 정밀도(Precision)
