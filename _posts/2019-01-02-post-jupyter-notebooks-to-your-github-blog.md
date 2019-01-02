@@ -64,7 +64,7 @@ jupyter nbconvert --to markdown notebook.ipynb
 이 과정은 내가 수업 첫 주에 만든 도구와 매우 유사하다.
 쉽게 말해서 우리는 새로운 터미널 창을 열 때마다 CLI 가 매번 불러오는 `.bash_profile` 스크립트에 바로가기를 추가하는 것과 같다.
 나는 그 바로가기를 `new_post` 라고 이름 지었지만 여러분은 notebook 을 여러분의 블로그에 올릴 때 사용하고 싶은 명령어로 바꿔도 좋다.
-설치는 아주 쉽다. 그냥 아래의 코드를 여러분의 `~/.bash_profile` 파일에 복붙하면 된다(CLI 에서 이 파일을 Sublime Text를 통해 바로 열고 싶다면 명령창에 `subl ~/.bash_profile`을 입력하라).
+설치는 아주 쉽다. 그냥 아래의 코드를 여러분의 `~/.bash_profile` 파일에 복붙하면 된다(CLI 에서 이 파일을 Sublime Text를 통해 바로 열고 싶다면 명령창에 `subl ~/.bash_profile`을 입력하라 **Windows 사용자의 경우 Git Bash 를 사용해서 명령어를 실행해야 한다**).
 여러분의 컴퓨터의 설정에 따라 첫 부분의 몇 줄을 바꿔야함을 명심하길 바란다.
 
 ```
