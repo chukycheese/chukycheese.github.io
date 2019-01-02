@@ -9,6 +9,8 @@ source: https://www.statisticshowto.datasciencecentral.com/68-95-99-7-rule/
 
 # 68 95 99.7의 법칙이란 무엇인가?
 
+[경험 법칙(The empirical rule)](https://youtu.be/hQTvdD8vtio)
+
 통계학에서 표준 정규 모형을 사용하는 경우:
 
 * 약 68%의 값은 평균에서 1-표준편차 이내에 위치한다
