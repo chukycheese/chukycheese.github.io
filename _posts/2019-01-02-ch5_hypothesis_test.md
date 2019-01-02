@@ -4,10 +4,6 @@ date: 2019-01-02
 category:
     - statspedia
     - Python
-tags:
-    - statistics
-    - python
-use_math: true
 ---
 
 $H_0$(Null hypothesis, 영가설)
