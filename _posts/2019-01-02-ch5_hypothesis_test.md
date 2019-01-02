@@ -4,6 +4,7 @@ date: 2019-01-02
 category:
     - statspedia
     - Python
+mathjax: true
 ---
 
 $H_0$(Null hypothesis, 영가설)
@@ -119,7 +120,7 @@ plt.show()
 ```
 
 
-![png](Ch5_hypothesis_test_files/Ch5_hypothesis_test_4_0.png)
+![png](images/Ch5_hypothesis_test_4_0.png)
 
 
 ## 3. 가설검정 절차
