@@ -62,4 +62,5 @@ source: https://www.statisticshowto.datasciencecentral.com/68-95-99-7-rule/
 Mónica Blanco and Marta Ginovart. How to introduce historically the normal distribution in engineering education: a classroom experiment. Retrieved December 28 2015. http://upcommons.upc.edu/bitstream/handle/2117/6483/howtointroduce.pdf
 
 **원문:**
-https://www.statisticshowto.datasciencecentral.com/68-95-99-7-rule/
+
+<https://www.statisticshowto.datasciencecentral.com/68-95-99-7-rule/>
