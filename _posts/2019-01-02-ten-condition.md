@@ -1,7 +1,9 @@
 ---
 title: 통계학에서의 10% 조건이란 무엇인가?
 date: 2019-01-02
-category: translation statistics
+category: 
+    - translation
+    - statistics
 source: https://www.statisticshowto.datasciencecentral.com/10-condition/
 ---
 
