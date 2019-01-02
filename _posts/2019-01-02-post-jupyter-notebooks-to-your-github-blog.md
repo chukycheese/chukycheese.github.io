@@ -69,11 +69,11 @@ jupyter nbconvert --to markdown notebook.ipynb
 
 ```
 function new_post {
-    #change these 3 lines to match your specific setup
-    GH_USER="github_username"
+    # 아래 네 줄을 여러분의 PC 설정에 맞도록 변경해주어야 한다
+    GH_USER="github_username"  # GitHub ID
     PC_USER="local_username"
-    POST_PATH="/Users/${PC_USER}/dsi-nyc-5/${GH_USER}.github.io/_posts"
-    IMG_PATH="/Users/${PC_USER}/dsi-nyc-5/${GH_USER}.github.io/images"
+    POST_PATH="/Users/${PC_USER}/dsi-nyc-5/${GH_USER}.github.io/_posts" # <username>.github.io repository 가 있는 주소로 변경
+    IMG_PATH="/Users/${PC_USER}/dsi-nyc-5/${GH_USER}.github.io/images"  # <username>.github.io repository 가 있는 주소로 변경
 
     FILE_NAME="$1"
     CURR_DIR=`pwd`
