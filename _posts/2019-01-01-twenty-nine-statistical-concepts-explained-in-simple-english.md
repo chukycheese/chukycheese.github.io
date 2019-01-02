@@ -39,4 +39,4 @@ source: https://www.datasciencecentral.com/profiles/blogs/29-statistical-concept
 
 **원문:**
 
-https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1
+(https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1)
