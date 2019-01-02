@@ -1,5 +1,16 @@
+---
+title: (통계학도감) 5장 가설 검정
+date: 2019-01-02
+category:
+    - statspedia
+    - Python
+tags:
+    - statistics
+    - python
+use_math: true
+---
 
-# 5장 가설 검정
+$H_0$(Null hypothesis, 영가설)
 
 ## 1. 가설검정: 차이가 있는지를 판정한다.
 
