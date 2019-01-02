@@ -12,16 +12,17 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : mmistakes/minimal-mistakes
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chuky's blog about data science and stuff"
-title_separator          : ""
+title                    : "Chuky's blog"
+title_separator          : "-"
 name                     : "Kyoyoung Chu"
-description              : "Talk data to me"
-url                      : "https://chukycheese.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+description              : "A few things about data"
+url                      : "https://chukycheese.github.io"
+baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -80,7 +81,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : 
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -105,9 +106,9 @@ analytics:
 author:
   name             : "Kyoyoung Chu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A to-be data scientist"
+  bio              : ""
   location         : "Seoul, Korea"
-  email            : chu.kyoyoung@gmail.com
+  email            : "chu.kyoyoung@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
