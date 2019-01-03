@@ -61,7 +61,7 @@ mathjax: true
 저는 {{contents}} 의 바로 아랫줄에 추가했습니다.*
 
 ```html
-{{ content }}
+{% raw %}{{ content }}{% endraw %}
 
 {% raw %}{% include mathjax.html %}{% endraw %} # mathjax.html 을 불러오는 부분
 
