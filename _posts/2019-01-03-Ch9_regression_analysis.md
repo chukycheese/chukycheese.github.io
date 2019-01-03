@@ -1,8 +1,15 @@
+---
+layout: post
+title: (통계학도감) 9장 회귀분석
+category:
+    - statspedia
+    - Python
+tags:
+    - Statistics
+    - Python
+    - Regression Analysis
+---
 
-# 9장 회귀분석
-
-
-    
 
 ## 목차
 
@@ -56,7 +63,7 @@ print('Correlation \n', np.corrcoef(marketing, sales))
 ```
 
 
-![png](Ch9_regression_analysis_files/Ch9_regression_analysis_4_0.png)
+![png](/images/Ch9_regression_analysis_files/Ch9_regression_analysis_4_0.png)
 
 
     Correlation 
@@ -97,7 +104,7 @@ plt.show()
     
 
 
-![png](Ch9_regression_analysis_files/Ch9_regression_analysis_5_1.png)
+![png](/images/Ch9_regression_analysis_files/Ch9_regression_analysis_5_1.png)
 
 
 ### 회귀식의 이론 모델
@@ -228,7 +235,7 @@ sns.residplot(sales_pred, resid, lowess = True, color = 'g')
 
 
 
-![png](Ch9_regression_analysis_files/Ch9_regression_analysis_12_1.png)
+![png](/images/Ch9_regression_analysis_files/Ch9_regression_analysis_12_1.png)
 
 
 ## 6. 다중회귀분석: 원인이 여럿일 때의 회귀분석
@@ -523,8 +530,3 @@ $$y = \beta_0 + \beta_1x + \beta_2D + \beta_3 Dx + \epsilon$$
 
 * 아래 그림은 자동차 구매(z = 1: 구입했다, z = 0: 구입하지 않았다)와 구입자의 소득관계를 그래프로 나타낸 것이다.
 * 반응변수가 더미변수라도 최소제곱법(OLS)에 의해 회귀선을 얻을 수 있다. 하지만 예측값이 0과 1의 범위 밖에 있을 수도 있고, 오차항의 분산도 일정하지 않으므로 OLS 를 이용한 분석은 바람직하지 않다.
-
-
-```
-
-```
