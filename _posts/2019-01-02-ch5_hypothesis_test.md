@@ -5,10 +5,12 @@ date: 2019-01-02
 category:
     - statspedia
     - Python
+tags:
+    - 통계학도감
+    - Python
+    - Statistics
 mathjax: true
 ---
-
-$H_0$(Null hypothesis, 영가설)
 
 ## 1. 가설검정: 차이가 있는지를 판정한다.
 
@@ -101,9 +103,9 @@ stats.ttest_1samp(a= minnesota_ages,               # Sample data
 **예제**: 위의 예제를 이용한 가설 설정 및 해석
 * 가설 설정
     * $H_0$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 없다.
-    </br>$(H_0: \bar{X}_{MN} = \bar{X}_{USA})$
+    </br> $(H_0: \bar{X}_{MN} = \bar{X}_{USA})$
     * $H_1$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 있다.
-    </br>$(H_1: \bar{X}_{MN} \ne \bar{X}_{USA})$
+    </br> $(H_1: \bar{X}_{MN} \ne \bar{X}_{USA})$
     
 * 가설 검정 결과
     * 유의수준 $\alpha$ = 0.05 일 때, 검정의 유의확률 p-value = 0.013 이 유의수준보다 작기 때문에 미네소타주에 사는 사람의 평균 연령과 미국 전체 인구의 평균 연령은 차이가 있다고 할 충분한 근거를 얻었다고 할 수 있다.
@@ -682,9 +684,3 @@ print(stats.ttest_ind(sample1 - delta, sample2, equal_var = True)) # 검정 결�
 
 
     Ttest_indResult(statistic=10.626771098429602, pvalue=1.0704093372541964e-25)
-    
-
-
-```
-
-```
