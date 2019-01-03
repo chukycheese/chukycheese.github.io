@@ -1,5 +1,18 @@
+---
+layout: post
+title: 5장 가설 검정
+date: 2019-01-03 01:00:00
+category:
+    - Statistics
+    - Python
+tags:
+    - Statistics
+    - Python
+    - Hypothesis Test
+mathjax: true
+---
 
-# 5장 가설 검정
+가설 검정이란 무엇이며, 가설 검정의 다양한 방법에 대해 알아보자.
 
 ## 1. 가설검정: 차이가 있는지를 판정한다.
 
@@ -91,10 +104,10 @@ stats.ttest_1samp(a= minnesota_ages,               # Sample data
 
 **예제**: 위의 예제를 이용한 가설 설정 및 해석
 * 가설 설정
-    * $H_0$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 없다.
-    </br>$(H_0: \bar{X}_{MN} = \bar{X}_{USA})$
-    * $H_1$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 있다.
-    </br>$(H_1: \bar{X}_{MN} \ne \bar{X}_{USA})$
+    * $H_0$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 없다. </br>
+    $(H_0: \bar{X}_{MN} = \bar{X}_{USA})$
+    * $H_1$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 있다. </br>
+    $(H_1: \bar{X}_{MN} \ne \bar{X}_{USA})$
     
 * 가설 검정 결과
     * 유의수준 $\alpha$ = 0.05 일 때, 검정의 유의확률 p-value = 0.013 이 유의수준보다 작기 때문에 미네소타주에 사는 사람의 평균 연령과 미국 전체 인구의 평균 연령은 차이가 있다고 할 충분한 근거를 얻었다고 할 수 있다.
@@ -112,7 +125,7 @@ plt.show()
 ```
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_4_0.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_4_0.png)
 
 
 ## 3. 가설검정 절차
@@ -177,11 +190,11 @@ plt.show()
 ```
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_7_0.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_7_0.png)
 
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_7_1.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_7_1.png)
 
 
 ### '검정'에 대해 생각해보기**
@@ -374,7 +387,7 @@ stats.ttest_ind(sample1, sample2, equal_var = True)
 ```
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_16_0.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_16_0.png)
 
 
 
@@ -431,8 +444,8 @@ print("Standard deviation of sample1 + sample2: ",np.std(sample1 + sample2))
 ### 웰치(Welch) 의 검정 (등분산을 가정하지 않는 검정)
 
 * 독립표본 평균 차이 검정통계량(z, t) 은 두 집단의 분산이 같다는 것이 전제이므로, 등분산검정 등에서 이를 가정할 수 없는 경우에는 **웰치(Welch) 검정** 을 이용한다.
-* 검정 자체는 보통 t 검정과 같은 방법으로 할 쇼ㅜ 있지만 자유도 계산이 좀 복잡하다.
-    * $ t'_{\bar{X_1} - \bar{X_2}} = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{\hat{\sigma_1}^2}{n_1} + \frac{\hat{\sigma_2}^2}{n_2}}}$,   $df = \frac{(\frac{\hat{\sigma_1}^2}{n_1} + \frac{\hat{\sigma_2}^2}{n_2})^2}{\frac{\hat{\sigma_1^4}}{n_1^2(n_1 - 1)} + \frac{\hat{\sigma_2^4}}{n_2^2(n_2 - 1)}}$ 
+* 검정 자체는 보통 t 검정과 같은 방법으로 할 수 있지만 자유도 계산이 좀 복잡하다.
+    * $ t_{\bar{X_1} - \bar{X_2}} = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{\hat{\sigma_1}^2}{n_1} + \frac{\hat{\sigma_2}^2}{n_2}}}$,   $df = \frac{(\frac{\hat{\sigma_1}^2}{n_1} + \frac{\hat{\sigma_2}^2}{n_2})^2}{\frac{\hat{\sigma_1^4}}{n_1^2(n_1 - 1)} + \frac{\hat{\sigma_2^4}}{n_2^2(n_2 - 1)}}$ 
 
 
 ```
@@ -494,7 +507,7 @@ plt.show()
 ```
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_22_0.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_22_0.png)
 
 
 ## 10. 평균 차이 검정 (2): 대응이 있는 두 집단의 경우
@@ -537,7 +550,7 @@ print(stats.ttest_rel(sample1, sample2))
 ```
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_24_0.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_24_0.png)
 
 
     Ttest_relResult(statistic=52.6587698758965, pvalue=3.2711937349211003e-74)
@@ -582,7 +595,7 @@ stats.ttest_rel(sample_before, sample_after) # p-value < 0.05: 귀무가설을 �
 
 * 표본의 크기가 충분히 클 때, 두 집단의 표본비율차이($ \hat{p_1} - \hat{p_2} $) 는 정규분포를 따른다.
 * 여기서는 그 표본비율의 차이를 표준화한 Z 통계량으로 설명한다.
-    * $ Z_{\hat{p_1} - \hat{p_2}} = \frac{|{\hat{p_1} - \hat{p_2}|}}{\sqrt{\hat{p}(1 - \hat{p})(\frac{1}{n_1} + \frac{1}{n_2})}} $
+    * $ Z_{\hat{p_1} - \hat{p_2}} = \frac{\|{\hat{p_1} - \hat{p_2}\|}}{\sqrt{\hat{p}(1 - \hat{p})(\frac{1}{n_1} + \frac{1}{n_2})}} $
     * 모표준오차: $ \sqrt{\hat{p}(1 - \hat{p})(\frac{1}{n_1} + \frac{1}{n_2})} $
     * $ \hat{p} = \frac{p_1 \times n_1 + p_2 \times n_2}{n_1 + n_2} \approx \frac{\bar{X_1} + \bar{X_2}}{n_1 + n_2} $
     
@@ -662,20 +675,14 @@ print(stats.ttest_ind(sample1 - delta, sample2, equal_var = True)) # 검정 결�
 ```
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_29_0.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_29_0.png)
 
 
     Ttest_indResult(statistic=1.1237929964226825, pvalue=0.2612358561621533)
     
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_29_2.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_29_2.png)
 
 
     Ttest_indResult(statistic=10.626771098429602, pvalue=1.0704093372541964e-25)
-    
-
-
-```
-
-```
