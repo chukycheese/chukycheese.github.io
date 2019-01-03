@@ -1,4 +1,5 @@
 ---
+layout: post
 title: (통계학도감) 5장 가설 검정
 date: 2019-01-02
 category:
