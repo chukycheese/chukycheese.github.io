@@ -25,7 +25,7 @@ mathjax: true
 파일 주소 및 파일명: **_includes/mathjax.html**
 
 ```html
-{% if page.mathjax %} # post 의 front matter 에 mathjax 항목의 값에 따라 MathJax 를 불러올 지를 결정하는 부분
+\{% if page.mathjax %\} # post 의 front matter 에 mathjax 항목의 값에 따라 MathJax 를 불러올 지를 결정하는 부분
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -46,7 +46,7 @@ mathjax: true
   src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
 >
 </script>
-{% endif %}
+\{% endif %\}
 ```
 
 ### 2. 아래의 코드를 **_layouts/post.html** 또는 MathJax 를 사용하고자 하는 레이아웃에 추가한다.
@@ -54,7 +54,7 @@ mathjax: true
 *제 경우에는 _layouts/post**s**.html 이라는 이름의 파일이 있었어서 제가 참고한 글과 동일하게 post.html 로 바꾸었습니다.* 
 
 ```html
-{% include mathjax.html %}
+\{% include mathjax.html %\}
 ```
 
 *`post.html` 또는 `posts.html` 을 열어보면 아래와 같은 코드가 있을텐데 적절해보이는 위치에 위의 코드를 추가해주시면 됩니다.
@@ -63,7 +63,7 @@ mathjax: true
 ```html
 {{ content }}
 
-{% include mathjax.html %} # mathjax.html 을 불러오는 부분
+\{% include mathjax.html %\} # mathjax.html 을 불러오는 부분
 
 # 이하 생략
 ```
