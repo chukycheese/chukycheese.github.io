@@ -52,7 +52,7 @@ $$\Delta x = |x_i - x|$$
 상당히 큰 오차가 있었는데 그 오차가 사라진 것이다.
 우리는 이 문제를 각 결과에 절댓값을 취해서 더함으로써 해결할 수 있다:
 
-|-6 lbs| + |6 lbs| = 12 lbs
+$|-6 | + |6 | = 12$ lbs
 
 ## 절대 정확도 오차 (Absolute Accuracy Error)
 
@@ -91,4 +91,4 @@ $s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{N - 1}}$
 
 **출처:**
 
-[bsolute Error & Mean Absolute Error (MAE)](https://www.statisticshowto.datasciencecentral.com/absolute-error/)
+[Absolute Error & Mean Absolute Error (MAE)](https://www.statisticshowto.datasciencecentral.com/absolute-error/)
