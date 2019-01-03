@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (통계학도감) 9장 회귀분석
+title: 통계학도감 - 9장 회귀분석
 date: 2019-01-03 00:30:00
 category:
     - statspedia
@@ -12,7 +12,7 @@ tags:
 mathjax: true
 ---
 
-회귀분석은 변수 x(원인)가 변수 y(결과)에 주는 영향을 알기 위한 방법이다.
+회귀분석이란 무엇이며, 회귀분석 과정에서 사용하는 용어와 다양한 방법에 대해 알아보자.
 
 ## 목차
 
@@ -42,7 +42,7 @@ mathjax: true
 * **추정된 관계(회귀선)가 통계적으로 의미있는 것인지 아닌지를 확인할 수 있다**.
 
 
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -71,7 +71,7 @@ print('Correlation \n', np.corrcoef(marketing, sales))
     
 
 
-```
+```python
 # sci-kit learn 라이브러리에서 linear_model 모듈 불러오기
 from sklearn import linear_model
 from sklearn.metrics import mean_squared_error, r2_score
@@ -170,7 +170,7 @@ $$R^2 = \frac{예측값으로 설명되는 변동}{전체 변동} = \frac{\sum(\
 
 
 
-```
+```python
 # 결정계수
 model.score(marketing.reshape(-1, 1), sales)
 ```
@@ -219,7 +219,7 @@ model.score(marketing.reshape(-1, 1), sales)
 
 
 
-```
+```python
 import seaborn as sns
 
 resid = sales - sales_pred
@@ -279,7 +279,7 @@ $$Adjusted \ R^2 = 1 - (1 - R^2)\frac{n - 1}{n - k - 1}$$
 
 
 
-```
+```python
 import numpy as np
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
@@ -450,7 +450,7 @@ $$y = \beta_0 + \beta_1x + \beta_2D + \epsilon$$
 
 
 
-```
+```python
 from sklearn.datasets import load_boston
 import pandas as pd
 import statsmodels.api as sm
