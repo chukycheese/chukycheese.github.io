@@ -201,7 +201,7 @@ model.score(marketing.reshape(-1, 1), sales)
     * $H_1: \beta_1 \ne 0$
 2. $t = \frac{\hat{\beta_1} - \beta_1}{\sqrt{\hat{\sigma}^2 / \sum(x_i - \bar{x})^2}}$ 에 $\beta_1 = 0$ (귀무가설)을 대입
 3. $t값 =\frac{회귀계수의 추정값}{\hat{\beta_1} 의 불편표준오차} =  \frac{\hat{\beta_1}}{\sqrt{\hat{\sigma}^2 / \sum(x_i - \bar{x})^2}}$
-4. $|t| > t_{n-2, \alpha/2}$ 일 때, $H_0$ 를 기각($t_{n-2, \alpha/2}$ 는 자유도 $n-2$ 일 때 유의수준 $\alpha/2$ 의 t값)
+4. $\|t\| > t_{n-2, \alpha/2}$ 일 때, $H_0$ 를 기각($t_{n-2, \alpha/2}$ 는 자유도 $n-2$ 일 때 유의수준 $\alpha/2$ 의 t값)
 
 ![t distribution rejection area](https://mblogthumb-phinf.pstatic.net/20160610_53/leerider_1465531441026rFNPp_PNG/%C1%A6%B8%F1_%BE%F8%C0%BD1.png?type=w2)
 
