@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (통계학도감) 9장 회귀분석
+date: 2019-01-03 00:30:00
 category:
     - statspedia
     - Python
