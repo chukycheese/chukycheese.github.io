@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 5장 가설 검정
+title: 통계학도감 - 5장 가설 검정
 date: 2019-01-03 01:00:00
 category:
-    - Statistics
+    - Statspedia
     - Python
 tags:
     - Statistics
@@ -47,7 +47,7 @@ mathjax: true
     * A라인에서 제조된 액정 패널과 B라인에서 제조된 액정 패널은 수율에 차이가 있을까?
 
 
-```
+```python
 import numpy as np
 import pandas as pd
 import scipy.stats as stats
@@ -104,17 +104,17 @@ stats.ttest_1samp(a= minnesota_ages,               # Sample data
 
 **예제**: 위의 예제를 이용한 가설 설정 및 해석
 * 가설 설정
-    * $H_0$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 없다. </br>
-    $(H_0: \bar{X}_{MN} = \bar{X}_{USA})$
-    * $H_1$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 있다. </br>
-    $(H_1: \bar{X}_{MN} \ne \bar{X}_{USA})$
+    * $H_0$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 없다.
+        * $(H_0: \bar{X}_{MN} = \bar{X}_{USA})$
+    * $H_1$: 미네소타 주에 사는 사람의 평균 연령은 미국 전체 인구의 평균 연령과 차이가 있다.
+        * $(H_1: \bar{X}_{MN} \ne \bar{X}_{USA})$
     
 * 가설 검정 결과
     * 유의수준 $\alpha$ = 0.05 일 때, 검정의 유의확률 p-value = 0.013 이 유의수준보다 작기 때문에 미네소타주에 사는 사람의 평균 연령과 미국 전체 인구의 평균 연령은 차이가 있다고 할 충분한 근거를 얻었다고 할 수 있다.
 
 
 
-```
+```python
 import seaborn as sns
 
 # 미국 전체 인구와 미네소타 주민의 나이 분포도
@@ -213,7 +213,7 @@ plt.show()
 * 판정기준이 되는 한계값은 이 유의수준 범위의 경계로 설정한다.
 
 
-```
+```python
 # 대립가설: 특정값과는 다른 모집단에서 표본을 추출했다고 생각한다.
 sample0 = stats.norm.rvs(size = 10000)
 sample1 = stats.norm.rvs(size = 10000, loc = 5)
@@ -227,7 +227,7 @@ plt.show()
 ```
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_9_0.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_9_0.png)
 
 
 ### 양측검정과 단측(편측)검정
@@ -366,7 +366,7 @@ plt.show()
     * $H_1: \mu_1 \ne \mu_2$ 또는 $\mu_1 -\mu_2 \ne 0$
 
 
-```
+```python
 from scipy import stats
 import numpy as np
 import matplotlib.pyplot as plt
@@ -402,7 +402,7 @@ stats.ttest_ind(sample1, sample2, equal_var = True)
 * 검정통계량을 계산할 때 한 가지 주의할 사항이 있다. 표본평균 차이의 분포에서는 모평균은 각 모평균의 차이지만, 표준오차의 분산은 합이 된다는 점이다.
 
 
-```
+```python
 # 분산의 가법성
 sample1 = stats.norm.rvs(loc = 0, scale = 2, size = 1000)
 sample2 = stats.norm.rvs(loc = 0, scale = 1, size = 1000)
@@ -448,7 +448,7 @@ print("Standard deviation of sample1 + sample2: ",np.std(sample1 + sample2))
     * $ t_{\bar{X_1} - \bar{X_2}} = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{\hat{\sigma_1}^2}{n_1} + \frac{\hat{\sigma_2}^2}{n_2}}}$,   $df = \frac{(\frac{\hat{\sigma_1}^2}{n_1} + \frac{\hat{\sigma_2}^2}{n_2})^2}{\frac{\hat{\sigma_1^4}}{n_1^2(n_1 - 1)} + \frac{\hat{\sigma_2^4}}{n_2^2(n_2 - 1)}}$ 
 
 
-```
+```python
 # 분산이 다른 두 집단의 독립표본 t 검정
 sample1 = stats.norm.rvs(loc = 0, scale = 2, size = 1000)
 sample2 = stats.norm.rvs(loc = 0, scale = 1, size = 1000)
@@ -463,7 +463,7 @@ stats.ttest_ind(sample1, sample2, equal_var = False)
 ```
 
 
-![png](ch5_hypothesis_test_files/ch5_hypothesis_test_20_0.png)
+![png](/images/ch5_hypothesis_test_files/ch5_hypothesis_test_20_0.png)
 
 
 
@@ -494,7 +494,7 @@ stats.ttest_ind(sample1, sample2, equal_var = False)
 * 상측에서 검정통계량 > 상한값, 하측에서 검정통계량 < 하한값, 혹은 p-value  <α 라면 귀무가설을 기각할 충분한 증거가 있다고 할 수 있다.
 
 
-```
+```python
 # 등분산검정
 sample1 = stats.norm.rvs(loc = 0, scale = 1, size = 150) # 표준편차가 2
 sample2 = stats.norm.rvs(loc = 0, scale = 3, size = 150) # 표준편차가 1
@@ -531,7 +531,7 @@ plt.show()
     * $ t_{\bar{d}} = \frac{\bar{d}}{\hat{\sigma} / \sqrt{n}} \approx \frac{\bar{d}}{s / \sqrt{n - 1}} $
 
 
-```
+```python
 # 대응표본 평균 차이 검정
 sample1 = stats.norm.rvs(loc = 210, scale = 10, size = 100) # 투약 전
 sample2 = stats.norm.rvs(loc = 140, scale = 10, size = 100) # 투약 후
@@ -557,7 +557,7 @@ print(stats.ttest_rel(sample1, sample2))
     
 
 
-```
+```python
 # 세 가지 사례에 대한 예제
 sample_before = np.array([180, 200, 250])
 sample_after = np.array([120, 150, 150])
@@ -604,7 +604,7 @@ stats.ttest_rel(sample_before, sample_after) # p-value < 0.05: 귀무가설을 �
 * 상측에서 검정통계량 > 상한값, 하측에서 검정통계량 < 하한값, 혹은 p-value <α 라면 귀무가설을 기각할 충분한 증거가 있다고 할 수 있다.
 
 
-```
+```python
 # 액정 패널 사례로 비율 차이에 대한 검정 해보기
 from statsmodels.stats.proportion import proportions_ztest
 counts = np.array([60, 80])
@@ -642,7 +642,7 @@ print('p-value of the proportion test: ' + '{0:0.3f}'.format(pval))
     * 독립표본 비율 차이 검정: $ z_{(\hat{p_1} - \hat{p_2}) - \Delta} = \frac{(\hat{p_1} - \hat{p_2}) - \Delta}{\sqrt{\frac{(\hat{p} - \Delta)(1 - \hat{p} + \Delta)}{n_1} + \frac{\hat{p}(1 - \hat{p})}{n_2}}} $
 
 
-```
+```python
 # 독립표본 평균차이 검정: 비열성 시험, 차이가 없는 경우
 sample1 = stats.norm.rvs(loc = 100, scale = 10, size = 1000)
 sample2 = stats.norm.rvs(loc = 80, scale = 10, size = 1000)
