@@ -58,13 +58,9 @@ mathjax: true
 ```
 
 *`post.html` 또는 `posts.html` 을 열어보면 아래와 같은 코드가 있을텐데 적절해보이는 위치에 위의 코드를 추가해주시면 됩니다.
-저는 {contents} 의 바로 아랫줄에 추가했습니다.*
+저는 {{contents}} 의 바로 아랫줄에 추가했습니다.*
 
 ```
----
-layout: archive
----
-
 {{ content }}
 
 {% include mathjax.html %} # mathjax.html 을 불러오는 부분
