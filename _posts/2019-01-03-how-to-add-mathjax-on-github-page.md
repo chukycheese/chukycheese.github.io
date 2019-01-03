@@ -13,7 +13,7 @@ tags:
 ---
 
 이 글은 MathJax 를 GitHub Pages Jekyll blog 에 추가하는 방법을 다룬다. *이탤릭체로 된 부분은 본문에는 없고 제가 따라하면서 고치거나 추가한 부분이니 참고하세요.*
-
+ 
 ## 절차
 
 ### 1. 아래의 코드를 **_includes/mathjax.html** 에 추가한다.
