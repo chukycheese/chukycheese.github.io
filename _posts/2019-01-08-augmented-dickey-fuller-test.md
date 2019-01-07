@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 29가지 통계 개념 - ADF(Augmented Dicky Fuller) 검정
 date: 2019-01-01 01:30:00
 category: 
@@ -90,4 +91,5 @@ R 에서 다른 함수들로는 `forecast` 패키지의 *nsdiffs* 함수와 `fUn
 Fuller, W. A. (1976). Introduction to Statistical Time Series. New York: John Wiley and Sons. ISBN 0-471-28715-6.
 Ogunc, A. & Hill, C. (2008) Using Excel: Companion to Principles of Econometrics, Third Edition. Retrieved January 4, 2017 from: http://econweb.tamu.edu/hwang/CLASS/Ecmt463/Lecture%20Notes/Excel/Excel_Lessons.pdf
 
-**출처: ** [ADF - Augmented Dickey Fuller Test](https://www.statisticshowto.datasciencecentral.com/adf-augmented-dickey-fuller-test/)
+
+**출처:** [ADF - Augmented Dickey Fuller Test](https://www.statisticshowto.datasciencecentral.com/adf-augmented-dickey-fuller-test/)
