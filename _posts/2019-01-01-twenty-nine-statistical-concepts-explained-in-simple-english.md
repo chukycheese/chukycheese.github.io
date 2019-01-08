@@ -12,7 +12,7 @@ category:
 * [통계학에서의 68, 95, 99.7 법칙](<https://chukycheese.github.io/translation/statistics/general-rules-in-statistics/>)
 * [절대 오차(Absolute Error)와 평균 절대 오차(Mean Absolute Error, MAE)](<https://chukycheese.github.io/translation/statistics/absolute-error-and-mean-absolute-error/>)
 * [정확도(Accuracy) 와 정밀도(Precision)](https://chukycheese.github.io/translation/statistics/accuracy-and-precision/)
-* ADF -- Augmented Dickey Fuller Test
+* [ADF -- Augmented Dickey Fuller Test](https://chukycheese.github.io/translation/statistics/augmented-dickey-fuller-test/)
 * Akaike's Information Criterion(AIC) 의 정의와 공식
 * ANCOVA: 공분산분석(Analysis of Covariance)
 * 평균의 반대편에 있는 두 Z 값 사이의 면적
