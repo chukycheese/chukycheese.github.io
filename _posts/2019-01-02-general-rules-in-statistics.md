@@ -1,10 +1,9 @@
 ---
-title: 통계학에서의 68, 95, 99.7의 법칙(68 95 99.7 Rule in Statistics)
+title: 29가지 통계 개념 - 통계학에서의 68, 95, 99.7의 법칙(68 95 99.7 Rule in Statistics)
 date: 2019-01-02
 category: 
     - translation 
     - statistics
-source: https://www.statisticshowto.datasciencecentral.com/68-95-99-7-rule/
 ---
 
 # 68 95 99.7의 법칙이란 무엇인가?
@@ -61,8 +60,9 @@ source: https://www.statisticshowto.datasciencecentral.com/68-95-99-7-rule/
 * 여러분이 68%, 95%, 99.7% 의 경우에 얻을 수 있는 윗면의 갯수의 하한과 상한
 
 **참고:**
+
 Mónica Blanco and Marta Ginovart. How to introduce historically the normal distribution in engineering education: a classroom experiment. Retrieved December 28 2015. http://upcommons.upc.edu/bitstream/handle/2117/6483/howtointroduce.pdf
 
-**원문:**
+**출처:**
 
-<https://www.statisticshowto.datasciencecentral.com/68-95-99-7-rule/>
+[68 95 99.7 Rule in Statistics](https://www.statisticshowto.datasciencecentral.com/68-95-99-7-rule/)
