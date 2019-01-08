@@ -1,13 +1,12 @@
 ---
-title: 통계학에서의 10% 조건이란 무엇인가?
+title: 29가지 통계 개념 - 통계학에서의 10% 조건이란 무엇인가?
 date: 2019-01-02
 category: 
     - translation
     - statistics
-source: https://www.statisticshowto.datasciencecentral.com/10-condition/
 ---
 
-# [통계학에서의 10% 조건이란 무엇인가?](https://www.statisticshowto.datasciencecentral.com/10-condition/)
+모집단과 표본집단을 이용하는 경우 통계학에서 말하는 10% 조건이 무엇인지에 대해 알아보자.
 
 ## 10% 조건
 
@@ -38,6 +37,6 @@ source: https://www.statisticshowto.datasciencecentral.com/10-condition/
 
 이 조건에 대한 가정을 뒷받침해주는 수학적인 증명이 있기 때문에 이는 통계학적으로 적절하다. 이에 대한 증명은 기초 통계학이나 고등학교 수준의 통계학을 넘어서지만, 이 조건을 뒷받침하는 원리에 대해 더 알고 싶다면 [텍사스대학교](https://www.ma.utexas.edu/users/mks/M358KInstr/TenPctCond.pdf)에서 제공하는 자료를 한 번 확인하라.
 
-**원문:**
+**출처:**
 
-<https://www.statisticshowto.datasciencecentral.com/10-condition/>
+[10% Condition in Statistics: What is it?](https://www.statisticshowto.datasciencecentral.com/10-condition/)
