@@ -18,7 +18,7 @@ comment: true
 * [ADF -- Augmented Dickey Fuller Test](https://chukycheese.github.io/translation/statistics/augmented-dickey-fuller-test/)
 * [수정된 $R^2$: 무엇에 사용하는 것인가?](https://chukycheese.github.io/statistics/adjusted-r2/)
 * [Akaike's Information Criterion(AIC) 의 정의와 공식](https://chukycheese.github.io/statistics/aic/)
-* ANCOVA: 공분산분석(Analysis of Covariance)
+* [NCOVA: 공분산분석(Analysis of Covariance)](https://chukycheese.github.io/statistics/ancova/)
 * 평균의 반대편에 있는 두 Z 값 사이의 면적
 * 통계학에서의 면적의 원리
 * Z 값 오른쪽의 면적 (찾는 방법)
