@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 성 가정
+title: 29가지 통계 개념 - 정규성 가정
 date: 2019-02-11 00:30:00
 category: statistics
 tags:
