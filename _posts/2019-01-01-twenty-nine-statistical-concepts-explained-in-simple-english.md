@@ -26,7 +26,7 @@ comment: true
 * 산술 평균(Arithmetic Mean): 산술 평균의 정의와 이를 구하는 방법
 * [독립성 가정](https://chukycheese.github.io/statistics/assumption-of-indepedence/)
 * [정규성 가정과 정규성 검정](https://chukycheese.github.io/statistics/assumption-of-normality/)
-* 회귀분석에 대한 가정과 조건들
+* [회귀분석에 대한 가정과 조건들](https://chukycheese.github.io/statistics/assumptions-and-conditions-for-regression/)
 * 기여위험도(Attributable Risk) 와 기여비율(Attributable Proportion): 정의와 예시
 * 자기회귀 모형: 정의와 AR 과정
 * 평균 - 정의와 평균을 구하는 방법
