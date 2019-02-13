@@ -20,11 +20,12 @@ z-값들 사이의 넓이를 구하고자 한다면, 그 두 z-값들이 평균�
 이 글에서는 z-값들이 평균의 양쪽에 있는 경우에 그 넓이를 구하는 방법에 대해서만 살펴볼 것이다.
 한쪽에 있는 경우에 대해서는 [평균의 한쪽에 있는 z-값 사이의 넓이를 구하는 방법](https://www.statisticshowto.datasciencecentral.com/how-to-find-the-area-between-two-z-scores-on-one-side-of-the-mean/)을 참고하길 바란다.
 
-[normal distribution with z-scores on opposite sides of mean](https://www.statisticshowto.datasciencecentral.com/wp-content/uploads/2009/08/normal-distribution-opposite-side-of-mean-300x123.png)
+![normal distribution with z-scores on opposite sides of mean](https://www.statisticshowto.datasciencecentral.com/wp-content/uploads/2009/08/normal-distribution-opposite-side-of-mean-300x123.png)
 
-[z-table1](http://statcalculators.com/wp-content/uploads/2018/02/z-score-02.png)
-[z-table2](https://www.dummies.com/wp-content/uploads/451654.image0.jpg)
-[z-table3](https://www.dummies.com/wp-content/uploads/451655.image1.jpg)
+![z-table1](http://statcalculators.com/wp-content/uploads/2018/02/z-score-02.png)
+![z-table2](https://www.dummies.com/wp-content/uploads/451654.image0.jpg)
+![z-table3](https://www.dummies.com/wp-content/uploads/451655.image1.jpg)
+
 ### 1단계
 
 표준정규분포표는 위의 예시들처럼 두 가지 방법으로 나타나있다.
