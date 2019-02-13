@@ -19,12 +19,13 @@ comment: true
 * [수정된 $R^2$: 무엇에 사용하는 것인가?](https://chukycheese.github.io/statistics/adjusted-r2/)
 * [Akaike's Information Criterion(AIC) 의 정의와 공식](https://chukycheese.github.io/statistics/aic/)
 * [NCOVA: 공분산분석(Analysis of Covariance)](https://chukycheese.github.io/statistics/ancova/)
-* 평균의 반대편에 있는 두 Z 값 사이의 면적
-* 통계학에서의 면적의 원리
+* [평균으로부터 양쪽으로 떨어진 z-값 사이의 넓이](https://chukycheese.github.io/statistics/area-between-two-z-values-on-opposite-sides-of-mean/)
+* [통계학에서의 넓이에 대한 원칙](https://chukycheese.github.io/statistics/area-principle/)
+* [RMA 모형](https://chukycheese.github.io/statistics/arma-model/)
 * Z 값 오른쪽의 면적 (찾는 방법)
 * 산술 평균(Arithmetic Mean): 산술 평균의 정의와 이를 구하는 방법
-* 독립성 가정
-* 정규성 가정과 정규성 검정
+* [독립성 가정](https://chukycheese.github.io/statistics/assumption-of-indepedence/)
+* [정규성 가정과 정규성 검정](https://chukycheese.github.io/statistics/assumption-of-normality/)
 * 회귀분석에 대한 가정과 조건들
 * 기여위험도(Attributable Risk) 와 기여비율(Attributable Proportion): 정의와 예시
 * 자기회귀 모형: 정의와 AR 과정
