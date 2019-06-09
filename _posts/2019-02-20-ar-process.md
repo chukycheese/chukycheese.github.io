@@ -12,6 +12,7 @@ tags:
 mathjax: true
 comment: true
 ---
+# 29가지 통계 개념 - 자기회귀 모형: 정의와 자기회귀 과정(AR Process)
 
 ## 자기회귀 모형이란 무엇인가?
 
