@@ -141,4 +141,8 @@ p
 
 ```
 
+![sankey](/images/2019-12-17-drawing-sankey-diagram-using-networkd3/2019-12-17-drawing-sankey-daigram-using-networkd3-in-r.png)
+
+html 형태로 보시면 해당 흐름 위에 커서를 올리면 값이 보이는데 html 파일을 올리는 방법을 모르겠네요... 찾아보고 수정하겠습니다. 안 될 수도 있고요.
+
 고생하셨습니다. 여러분이 그리신 생키 다이어그램을 보시면서 뿌듯해하시면 됩니다.
