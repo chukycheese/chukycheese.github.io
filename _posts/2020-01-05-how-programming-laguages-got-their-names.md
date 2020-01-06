@@ -64,8 +64,6 @@ C 라는 이름은 굉장히 쉽게 지어졌는데, B 라는 프로그래밍 �
 
 개발자는 'c' (C#), 'l' (Lisp), 그리고 'j' (Java) 를 포함했으면 했고, 'closure' 와 비슷한 말장난이기도 하다.
 
-## JavaScript
-
 ## R
 
 R 은 최초의 두 개발자 (Ross Ihaka 와 Robert Gentleman) 의 이름에서 따오기도 했고, 이전에 있던 언어인 S 의 다음 글자라서 R 로 정한 것도 있다.
