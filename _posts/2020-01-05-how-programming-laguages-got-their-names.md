@@ -38,19 +38,19 @@ comment: true
 
 자바는 1990년대에 제임스 고슬링 (James Gosling) 이 선 마이크로시스템즈 (Sun Microsystems) 에서 일할 때 만들었다. 그 프로젝트는 원래 'Oak' 라고 불렸었는데, 카페인을 엄청나게 소비한 브레인스토밍 시간을 가진 뒤 'Java' 라는 이름이 생겼다 (비록 'Silk' 로 정해질 뻔하긴 했지만). 인도네시아어로 *Java* 또는 *Jawa* 는 강하고 진하고 달콤한 커피를 생산하는 큰 섬의 이름이다. 이 단어는 1800년대부터 미국에서 커피를 뜻하는 말로 쓰이고 있다.
 
-![java](../images/2020-01-05-how-programming-laguages-got-their-names/java.jpg)
+![java](/images/2020-01-05-how-programming-laguages-got-their-names/java.jpg)
 
 ## Kotlin
 
 2011년 젯브레인즈(JetBrains) 가 발표한 언어인 코틀린은 러시아의 코틀린 섬 (Kotlin Island) 에서 이름을 따왔다. 개발팀은 Java 처럼 섬의 이름을 따서 이름을 짓고 싶었다. 비록 섬 이름이 아니라 커피이기는 하지만! 코틀린 (러시아어로는 Котлин) 은 스웨덴 땅이었으며, 핀란드인들에게는 '여우섬' 이라는 뜻의 *Kettusaari* 로, 스웨덴인들에게는 *Ketlingen* 로 불렸고, 이 이름은 아마도 가마솥을 의미하는 독일어 *kettel* 에서 왔을 수 있다. 1703년 표트르 대제가 그 섬의 통제권을 획득하고 *Kotling* 으로 이름을 바꿨고 이후에 *Kotlin* 으로 줄였다.
 
-![kotlin](../images/2020-01-05-how-programming-laguages-got-their-names/kotlin.png)
+![kotlin](/images/2020-01-05-how-programming-laguages-got-their-names/kotlin.png)
 
 ## Swift
 
 애플이 자신들이 개발한 언어의 이름을 Swift 라고 지은 명확한 이유는 없지만 [Quora 에 누군가가 물었듯이](https://www.quora.com/Is-the-Swift-programming-language-named-after-Taylor-Swift) 테일러 스위프트 (Taylor Swift) 에서 온 것은 절대 아니다. 내 생각에는 애플이 뭔가 빠르다는 인상을 주기 위한 게 아닌가 싶다. *swift* 는 '굉장히 빠른 속력 또는 속도로 움직임' 이라는 뜻이며, 이는 선사시대로 올라가 '쓸어다니며 움직임' 이라는 뜻의 *swipt-* 까지 거슬러 올라간다. 17세기부터 제비처럼 생긴 새들이 swift 로 알려졌으며, 이 프로그래밍 언어의 로고로도 사용하고 있다.
 
-![swift](../images/2020-01-05-how-programming-laguages-got-their-names/swift.jpg)
+![swift](/images/2020-01-05-how-programming-laguages-got-their-names/swift.jpg)
 
 ## Bash
 
