@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [번역] Tidy Tuesday 이벤트에 대한 소개
+title: 번역] Tidy Tuesday 이벤트에 대한 소개
 date: 2020-01-06 00:30:00
 category: data science
 tags:
@@ -17,9 +17,9 @@ mathjax: true
 comment: true
 ---
 
-![tidytuesday-logo](/images/2020-01-06-tidytuesday-kr/tt_logo.png)
-
 원문: [TidyTuesday GitHub Repository](https://github.com/rfordatascience/tidytuesday)
+
+![tidytuesday-logo](/images/2020-01-06-tidytuesday-kr/tt_logo.png)
 
 ---
 
