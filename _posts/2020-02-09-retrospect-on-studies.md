@@ -34,7 +34,8 @@ comment: true
 
 #### ML Crash Course 에서 아쉬웠던 점
 
-* 지식을 위한 스터디처럼 업무와 두 발자국 정도 떨어져있었다면 (물론 언젠가는 업무에 써먹을 걸 공부하겠지만) 조금 더 여유있게 볼 수 있었을 듯 ~~(안 볼 가능성이 더 높은 것 같지만...)~~
+* Google 에서 제공하는 것이니 TF 를 쓰는 것이 당연하겠지만 온전히 TF 로만 진행되는 부분은 조금 아쉽긴 했음
+* `Crash Course` 답게 후루룩!!! 하고 넘어가는 게 있어서 전혀 모르는 상태에서 보기에는 쉽지는 않을 듯
 
 ### Google Recommendation Systems
 
@@ -52,7 +53,7 @@ comment: true
 
 끝!!
 
-![](https://cdn.clien.net/web/api/file/F01/9309261/503d92f7c56aa4.png?thumb=true)
+![pengsu-graduation](https://cdn.clien.net/web/api/file/F01/9309261/503d92f7c56aa4.png?thumb=true)
 
 인줄 알았으나 Coursera 에서 University of Minnesota 에서 진행하는 [Recommendation Systems](https://www.coursera.org/learn/recommender-systems-introduction/home/welcome) 시작 예정!!
 
