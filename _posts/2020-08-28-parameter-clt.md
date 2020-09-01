@@ -48,7 +48,7 @@ comment: true
 
 ### 마치며
 
-큰 수의 법칙과 중심극한정리를 설명할 때 표본의 크기와 시행의 횟수가 커지면 어떻게 바뀌는지까지 보여드리면 훨씬 더 이해가 쉬웠을 것 같지만, 해당 자료를 찾는 것이 크게 어렵지 않을테니 다른 글도 보시면서 보다 확실한 개념을 잡으실 겸 찾아보시는 것을 추천드립니다. 
+큰 수의 법칙과 중심극한정리를 설명할 때 표본의 크기와 시행의 횟수가 커지면 어떻게 바뀌는지까지 보여드리면 훨씬 더 이해가 쉬웠을 것 같지만, 해당 자료를 찾는 것이 크게 어렵지 않을테니 다른 글도 보시면서 보다 확실한 개념을 잡으실 겸 찾아보시는 것을 추천드립니다.
 
 읽어주셔서 감사합니다.
 
@@ -57,3 +57,10 @@ comment: true
 * DeepAI: [Law of Large Numbers](https://deepai.org/machine-learning-glossary-and-terms/law-of-large-numbers)
 * DeepAI: [Central Limit Theorem](https://deepai.org/machine-learning-glossary-and-terms/central-limit-theorem)
 * 위키피디아: [중심극한정리](https://ko.wikipedia.org/wiki/중심_극한_정리)
+
+## 데이터분석가 채용 공고
+
+현재 제가 일하고 있는 ODK Media Inc. 에서 3년 이상의 경력을 가지고 있는 데이터분석가를 채용 중입니다. 보다 자세한 내용은 아래 채용 공고에서 확인하실 수 있습니다. 궁금하신 점은 제 소셜미디어나 이메일로 여쭤보셔도 됩니다 (빨리 댓글을 달아야 할텐데요...).
+
+* [데이터분석가](https://boards.greenhouse.io/odkmediainc/jobs/4101047003)
+* [백엔드 엔지니어](https://boards.greenhouse.io/odkmediainc/jobs/4003500003)
