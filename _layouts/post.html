@@ -6,7 +6,15 @@ layout: archive
 
 {% include mathjax.html %}
 
-{% include disqus.html %}
+<div>
+  <script src="https://utteranc.es/client.js"
+        repo="chukycheese/blog-comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
 
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
@@ -32,12 +40,3 @@ layout: archive
   </section>
 {% endfor %}
 
-<div>
-  <script src="https://utteranc.es/client.js"
-        repo="chukycheese/blog-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-  </script>
-</div>
