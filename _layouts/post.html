@@ -32,6 +32,12 @@ layout: archive
   </section>
 {% endfor %}
 
-{% if page.comments %} 
-    <a href="https://chukycheese.github.io{{ page.url }}#disqus_thread">0 Comments</a>
-{% endif %}
+<div>
+  <script src="https://utteranc.es/client.js"
+        repo="chukycheese/blog-comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
