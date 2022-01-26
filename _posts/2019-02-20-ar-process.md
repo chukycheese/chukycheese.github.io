@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 자기회귀 모형: 정의와 자기회귀 과정(AR Process)
+title: 번역] 29가지 통계 개념 - 자기회귀 모형: 정의와 자기회귀 과정(AR Process)
 date: 2019-02-20 00:30:00
 category: statistics
 tags:

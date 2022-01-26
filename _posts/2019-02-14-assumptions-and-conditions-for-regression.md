@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 회귀분석의 가정과 조건들
+title: 번역] 29가지 통계 개념 - 회귀분석의 가정과 조건들
 date: 2019-02-14 00:30:00
 category: statistics
 tags:
@@ -103,4 +103,3 @@ SPSS 나 Excel 같은 대부분의 소프트웨어는 *회귀선이 말이 되�
 즉, 회귀선을 기준으로 그 주위에 더 많은 데이터가 있고, 이상치가 없이 균일하게 퍼져있어야 한다.
 
 출처: [Assumptions and Conditions for Regression](https://www.statisticshowto.datasciencecentral.com/assumptions-conditions-for-regression/)
-
