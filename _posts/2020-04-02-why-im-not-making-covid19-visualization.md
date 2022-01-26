@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 번역) 내가 COVID19 데이터를 시각화하지 않는 이유
+title: 번역] 내가 COVID19 데이터를 시각화하지 않는 이유
 date: 2020-04-02 00:30:00
 category: data science
 tags:
