@@ -7,6 +7,8 @@ category:
     - statistics
 tag:
     - translation
+mathjax: true
+comment: true
 ---
 
 ## 68 95 99.7의 법칙이란 무엇인가?
