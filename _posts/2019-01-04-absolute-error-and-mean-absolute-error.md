@@ -9,6 +9,7 @@ category:
 tag:
     - translation
 mathjax: true
+comment: true
 ---
 
 절대 오차와 평균 절대 오차에 대해서 알아보자.

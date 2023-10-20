@@ -6,10 +6,12 @@ toc: true
 toc_sticky: true
 category:
     - statistics
-tags:
+tag:
     - python
     - hypothesis-testing
+    - statistics
 mathjax: true
+comment: true
 ---
 
 가설 검정이란 무엇이며, 가설 검정의 다양한 방법에 대해 알아보자.

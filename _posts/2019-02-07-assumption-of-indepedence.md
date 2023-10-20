@@ -5,7 +5,7 @@ date: 2019-02-07 01:00:00
 toc: true
 toc_sticky: true
 category: statistics
-tags:
+tag:
     - statistics
     - translation
     - independence

@@ -2,13 +2,16 @@
 layout: post
 title: 29가지 통계 개념 - ADF(Augmented Dicky Fuller) 검정
 date: 2019-01-01 01:30:00
+toc: true
+toc_sticky: true
 category: 
     - statistics
-tags:
+tag:
     - statistics
     - translation
     - adf-test
 mathjax: true
+comment: true
 ---
 
 단위근 검정 방법 중 하나인 Augmented Dickey Fuller 검정에 대해 알아보자.

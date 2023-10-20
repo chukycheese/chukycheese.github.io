@@ -2,8 +2,10 @@
 layout: post
 title: 차트와 접근성
 date: 2022-01-13 00:30:00
+toc: true
+toc_sticky: true
 category: data-analytics
-tags:
+tag:
     - visualization
     - accessibility
 mathjax: true

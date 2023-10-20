@@ -7,6 +7,9 @@ category:
     - statistics
 tag:
     - translation
+    - statistics
+mathjax: true
+comment: true
 ---
 
 모집단과 표본집단을 이용하는 경우 통계학에서 말하는 10% 조건이 무엇인지에 대해 알아보자.

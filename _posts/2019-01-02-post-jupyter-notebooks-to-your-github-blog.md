@@ -9,6 +9,8 @@ tag:
     - github-pages
     - translation
     - jupyter-notebook
+mathjax: true
+comment: true
 source: https://blomadam.github.io/tutorials/2017/04/09/ipynb-to-Jekyll-Post-tools.html
 ---
 

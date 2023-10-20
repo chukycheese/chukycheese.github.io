@@ -5,7 +5,7 @@ date: 2020-02-09 00:30:00
 toc: true
 toc_sticky: true
 category: retrospect
-tags:
+tag:
     - retrospect
     - data-analytics
     - recommendation-system

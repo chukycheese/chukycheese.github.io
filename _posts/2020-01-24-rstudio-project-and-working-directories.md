@@ -5,7 +5,7 @@ date: 2020-01-24 00:30:00
 toc: true
 toc_sticky: true
 category: data-analytics
-tags:
+tag:
     - translation
     - r-studio
 mathjax: true

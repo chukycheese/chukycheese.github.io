@@ -5,7 +5,7 @@ date: 2020-01-29 00:30:00
 toc: true
 toc_sticky: true
 category: data-ethics
-tags:
+tag:
     - data-privacy
     - translation
     - data-ethics

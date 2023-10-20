@@ -5,7 +5,7 @@ date: 2019-06-09 00:30:00
 toc: true
 toc_sticky: true
 category: data-analytics
-tags:
+tag:
     - data-science
     - statistics
     - machine-learning

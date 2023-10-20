@@ -5,7 +5,7 @@ date: 2020-08-28 00:30:00
 toc: true
 toc_sticky: true
 category: statistics
-tags:
+tag:
     - statistics
 mathjax: true
 comment: true

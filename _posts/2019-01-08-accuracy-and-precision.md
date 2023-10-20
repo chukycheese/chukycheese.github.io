@@ -6,10 +6,11 @@ toc: true
 toc_sticky: true
 category:
     - statistics
-tags:
+tag:
     - translation
     - statistics
 mathjax: true
+comment: true
 ---
 
 통계 용어 중 정확도(Accuracy)와 정밀도(Precision) 에 대해서 알아보자.

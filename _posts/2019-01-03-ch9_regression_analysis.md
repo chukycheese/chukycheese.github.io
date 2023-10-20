@@ -6,10 +6,12 @@ toc: true
 toc_sticky: true
 category:
     - statistics
-tags:
+tag:
     - regression
     - python
+    - statistics
 mathjax: true
+comment: true
 ---
 
 회귀분석이란 무엇이며, 회귀분석 과정에서 사용하는 용어와 다양한 방법에 대해 알아보자.

@@ -5,7 +5,7 @@ date: 2020-01-06 00:30:00
 toc: true
 toc_sticky: true
 category: data-analytics
-tags:
+tag:
     - visualization
     - tidytuesday
 mathjax: true

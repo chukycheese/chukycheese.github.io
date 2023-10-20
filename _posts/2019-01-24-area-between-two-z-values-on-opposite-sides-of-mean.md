@@ -5,7 +5,7 @@ date: 2019-01-24 00:30:00
 toc: true
 toc_sticky: true
 category: statistics
-tags:
+tag:
     - statistics
     - translation
 mathjax: true

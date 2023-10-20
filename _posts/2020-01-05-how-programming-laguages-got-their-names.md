@@ -5,7 +5,7 @@ date: 2020-01-05 00:30:00
 toc: true
 toc_sticky: true
 category: trivia
-tags:
+tag:
     - programming-languages
     - translation
 mathjax: true

@@ -5,7 +5,7 @@ date: 2019-12-23 00:30:00
 toc: true
 toc_sticky: true
 category: productivity
-tags:
+tag:
     - translation
     - freakonomics
 mathjax: true
