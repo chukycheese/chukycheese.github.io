@@ -1,13 +1,15 @@
 ---
 layout: post
-title: 번역] 2016년 모든 데이터 사이언티스트가 알아야할 10+2 가지 데이터 사이언스 방법론
+title: 2016년 모든 데이터 사이언티스트가 알아야할 10+2 가지 데이터 사이언스 방법론
 date: 2019-06-09 00:30:00
-category: data science
+toc: true
+toc_sticky: true
+category: data-analytics
 tags:
-    - data science
+    - data-science
     - statistics
-    - machine learning
-    - 머신러닝
+    - machine-learning
+    - translation
 mathjax: true
 comment: true
 ---

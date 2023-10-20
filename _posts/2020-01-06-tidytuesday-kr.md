@@ -1,18 +1,13 @@
 ---
 layout: post
-title: 번역] Tidy Tuesday 이벤트에 대한 소개
+title: Tidy Tuesday 이벤트에 대한 소개
 date: 2020-01-06 00:30:00
-category: data science
+toc: true
+toc_sticky: true
+category: data-analytics
 tags:
-    - data science
-    - 데이터 사이언스
+    - visualization
     - tidytuesday
-    - tidyverse
-    - r language
-    - data analysis
-    - 데이터 분석
-    - data visualization
-    - 데이터 시각화
 mathjax: true
 comment: true
 ---
@@ -24,8 +19,6 @@ comment: true
 ---
 
 ## A weekly social data project in R
-
----
 
 R 생태계를 겨냥한 주단위 데이터 프로젝트. 이 프로젝트는 `R4DS 온라인 학습 커뮤니티`와 `R for Data Science` 책에서 태어났으며, `tidyverse` 생태계 안에 있는 `ggplot2`, `tidyr`, `dplyr` 등을 이용해서 데이터를 요약하고 정리해서 의미있는 차트를 만드는 데에 방점을 둡니다. 그렇다고 해서 다른 코드를 사용하면 안 된다는 규칙은 없지만, 그 결과를 만드는 데에 사용한 코드는 공유해주기 바랍니다.
 
@@ -40,33 +33,18 @@ Tidy Tuesday 의 의도는 결론을 도출하는 것과는 무관하게 개인�
 저희는 모든 초심자, 열정이 있는 사람, 그리고 전문가가 참여하도록 환영합니다. 하지만 몇 가지 명심해주셨으면 하는 게 있습니다.
 
 1. 데이터셋은 원문 또는 원문이 인용한 출처에서 가져왔습니다. 데이터는 있는 그대로 받아들이시고, Tidy Tuesday 는 여러분이 R 을 이용해서 기본적인 데이터 전처리와 시각화를 연습하는 것을 돕기 위해 만들어졌다는 걸 기억해주세요.
-
 2. 다시 한 번 말씀 드립니다. 데이터는 그게 다입니다! 여러분이 제공된 데이터 이외에 더 탐색하는 것을 환영합니다만, 이 데이터는 연습을 위해 제공된 "장난감 (toy)" 데이터입니다.
-
 3. 이 프로젝트는 남을 비평하는 것도, 동료 `#RStats` 사용자와 그의 코드를 뜯어보는 게 목적이 아닙니다! 서로를 지지하고 친절하게 대하세요! 다른 사람의 글에 좋아요도 눌러주시고, `#RStats` 커뮤니티를 널리 알리는 것을 도와주세요!
-
 4. 여러분이 스스로 코드를 짰고 이를 공유할 때에는 트위터에서 `#TidyTuesday` 해시태그를 꼭 붙여주세요.
-
 5. 트위터에 글을 쓸 때에는 시각화한 것의 사진을 같이 올려주세요.
-
 6. 트위터에 글을 쓸 때에는 시각화에 사용한 코드도 같이 올려주세요. 본인과 다른 사람이 자신의 프로세스를 이해하는 것을 도울 수 있도록 가능하다면 코드에 주석을 달아주세요.
-
 7. 비록 쉬운 것으로 끝냈더라도 여러분의 작업물을 개선하는 것에 집중해주세요!
-
 8. 가능하다면 원본 데이터의 출처에 감사를 표해주세요.
-
----
 
 ## 데이터셋 제출하기
 
----
-
 흥미로운 데이터셋을 제공하고 싶으신가요? [이슈](https://github.com/rfordatascience/tidytuesday/issues) 를 열어서 데이터를 사용한 글 (또는 블로그 글 등) 의 링크를 달아주세요. 그런 뒤에 향후의 TidyTuesday 행사에 이 데이터를 추가할 지 이야기 해보시죠!
 
----
-
 ## 코드 제출하기
-
----
 
 유용한 코드를 제출하고 싶다고요? [풀 리퀘스트 (Pull Request)](https://github.com/rfordatascience/tidytuesday/tree/master/community_resources/code_chunks) 형태로 제출해주시고 [가이드](https://github.com/rfordatascience/tidytuesday/blob/master/community_resources/code_chunks/readme.md) 를 꼭 지켜주세요.

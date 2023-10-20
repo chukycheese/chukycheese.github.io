@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 번역] 회의를 덜 끔찍하게 만드는 방법
+title: 회의를 덜 끔찍하게 만드는 방법
 date: 2019-12-23 00:30:00
-category: freakonomics
+toc: true
+toc_sticky: true
+category: productivity
 tags:
+    - translation
     - freakonomics
-    - 괴짜경제학
 mathjax: true
 comment: true
 ---

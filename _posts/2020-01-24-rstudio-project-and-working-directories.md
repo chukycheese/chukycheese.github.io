@@ -1,16 +1,13 @@
 ---
 layout: post
-title: 번역] 초보자를 위한 RStudio 의 프로젝트 와 작업 디렉토리
+title: 초보자를 위한 RStudio 의 프로젝트 와 작업 디렉토리
 date: 2020-01-24 00:30:00
-category: data science
+toc: true
+toc_sticky: true
+category: data-analytics
 tags:
-    - data science
-    - statistics
-    - rstudio
-    - 데이터 사이언스
-    - learning-r
-    - vignettes
-    - rmarkdown
+    - translation
+    - r-studio
 mathjax: true
 comment: true
 ---

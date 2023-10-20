@@ -1,11 +1,13 @@
 ---
-title: 리뷰] Testing Product Ideas Handbook
+title: Testing Product Ideas Handbook
 date: 2023-08-22
+toc: true
+toc_sticky: true
 category: 
-    - bookreview
+    - book-review
 tag:
-    - bookreview
-    - product management
+    - book-review
+    - product-management
 mathjax: true
 comment: true
 ---

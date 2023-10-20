@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 번역] 29가지 통계 개념 - 회귀분석의 가정과 조건들
+title: 29가지 통계 개념 - 회귀분석의 가정과 조건들
 date: 2019-02-14 00:30:00
+toc: true
+toc_sticky: true
 category: statistics
 tags:
     - statistics
     - regression
-    - 회귀분석
-    - assumptions for regression
-    - 회귀분석에 필요한 가정
+    - translation
 mathjax: true
 comment: true
 ---
@@ -102,4 +102,6 @@ SPSS 나 Excel 같은 대부분의 소프트웨어는 *회귀선이 말이 되�
 이 가정은 모든 $x$ 값에 대해서 데이터가 회귀선을 기준으로 정규분포를 따르게 분포되어야 한다는 것이다.
 즉, 회귀선을 기준으로 그 주위에 더 많은 데이터가 있고, 이상치가 없이 균일하게 퍼져있어야 한다.
 
-출처: [Assumptions and Conditions for Regression](https://www.statisticshowto.datasciencecentral.com/assumptions-conditions-for-regression/)
+### 출처
+
+[Assumptions and Conditions for Regression](https://www.statisticshowto.datasciencecentral.com/assumptions-conditions-for-regression/)

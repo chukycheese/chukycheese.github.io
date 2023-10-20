@@ -1,13 +1,11 @@
 ---
 layout: post
-title: 번역] 차트와 접근성
+title: 차트와 접근성
 date: 2022-01-13 00:30:00
-category: data science
+category: data-analytics
 tags:
     - visualization
     - accessibility
-    - 데이터 시각화
-    - 접근성
 mathjax: true
 comment: true
 ---

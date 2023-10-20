@@ -2,11 +2,13 @@
 layout: post
 title: 29가지 통계 개념 - 통계학에서의 넓이에 대한 원칙
 date: 2019-01-26 00:30:00
+toc: true
+toc_sticky: true
 category: statistics
 tags:
     - statistics
     - visualization
-    - 시각화
+    - translation
 mathjax: true
 comment: true
 ---
@@ -15,7 +17,7 @@ comment: true
 
 ## 넓이에 대한 원칙이란 무엇인가?
 
-넓이에 대한 원칙이란 그래프의 영역은 자료가 표현하고자 하는 정도와 동일해야한다는 것이다. 
+넓이에 대한 원칙이란 그래프의 영역은 자료가 표현하고자 하는 정도와 동일해야한다는 것이다.
 쉬운 예를 들어보면, 4 ft, 5 ft, 6 ft 라는 세 길이에 대한 값을 얻었다고 하자.
 **아래 그림 중 위의 것은 넓이에 대한 원칙을 만족한다**.
 
@@ -25,7 +27,8 @@ comment: true
 
 ![area principle](https://www.statisticshowto.datasciencecentral.com/wp-content/uploads/2015/08/area-principal.png)
 
-**아래의 그림은 넓이에 대한 원칙을 위반한다**. 
+**아래의 그림은 넓이에 대한 원칙을 위반한다**.
+
 표기된 수치보다 넓게 표현되었기 때문에 사람들의 시선은 자연스럽게 4 ft 짜리 상자들로 갈 것이다.
 6 ft 상자가 명백하게 더 길지만, 더 넓은 영역을 가진 곳으로 가는 것이다.
 
@@ -57,4 +60,6 @@ comment: true
 그렇게 되면 세금이 "엄청나게" 늘어났다고 볼 것이기 때문이다.
 실제로 오른 세금은 4.6%p 정도이다.
 
-출처: [What is the Area Principle?](https://www.statisticshowto.datasciencecentral.com/area-principle-in-statistics/)
+### 출처
+
+[What is the Area Principle?](https://www.statisticshowto.datasciencecentral.com/area-principle-in-statistics/)

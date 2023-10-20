@@ -4,10 +4,10 @@ date: 2023-09-11
 toc: true
 toc_sticky: true
 category: 
-    - product-analytics
+    - data-analytics
 tag:
     - data-tracking
-    - behavioral-analytics
+    - user-behavior
     - product-analytics
 mathjax: true
 comment: true

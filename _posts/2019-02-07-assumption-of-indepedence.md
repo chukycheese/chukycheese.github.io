@@ -2,13 +2,13 @@
 layout: post
 title: 29가지 통계 개념 - 독립성 가정
 date: 2019-02-07 01:00:00
+toc: true
+toc_sticky: true
 category: statistics
 tags:
     - statistics
-    - assumption of independence
-    - 독립성 가정
-    - statistical test
-    - 통계적 검정
+    - translation
+    - independence
 mathjax: true
 comment: true
 ---
@@ -26,7 +26,7 @@ comment: true
 이 가정을 위반한다면 데이터에 있는 아주 작은 종속성이라도 (찾을 수 없을지도 모르는) 굉장히 큰 편향을 낳을 수 있다.
 
 **종속성** 이란 데이터 사이의 연결을 의미한다.
-예를 들어, 수입은 일하는 시간에 *의존한다*. 
+예를 들어, 수입은 일하는 시간에 *의존한다*.
 **독립성** 이란 이러한 관계가 없다는 뜻이다.
 수입과 아침에 먹은 음식 사이에는 아무런 관계가 없듯이 말이다.
 독립성 가정은 데이터들이 그 어떠한 관계도 없다는 것이다(적어도 모형에 고려하지 않은 것들 중에는).
@@ -56,4 +56,6 @@ comment: true
 해당 분야의 전문가가 아니라면 이는 어려울 수 있다.
 하지만, 그 분야의 이전 연구를 살펴보고 데이터가 수집된 방법을 확인하도록 하라.
 
-출처: [Assumption of Independence](https://www.statisticshowto.datasciencecentral.com/assumption-of-independence/)
+### 출처
+
+[Assumption of Independence](https://www.statisticshowto.datasciencecentral.com/assumption-of-independence/)

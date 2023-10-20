@@ -2,12 +2,13 @@
 layout: post
 title: 사내 스터디에 대한 회고
 date: 2020-02-09 00:30:00
+toc: true
+toc_sticky: true
 category: retrospect
 tags:
     - retrospect
-    - 회고
-    - data science
-    - 데이터 사이언스
+    - data-analytics
+    - recommendation-system
 mathjax: true
 comment: true
 ---

@@ -1,24 +1,25 @@
 ---
 layout: post
-title: GitHub Pages Jekyll Blog 에 MathJax 추가하기 (Adding MathJax to a GitHub Pages Jekyll Blog)
+title: GitHub Pages Jekyll Blog 에 MathJax 추가하기
 date: 2019-01-03 00:10:00
+toc: true
+toc_sticky: true
 category:
-    - translation
-    - GitHub Pages
-    - Jekyll
-    - MathJax
+    - github-pages
 tags: 
-    - Jekyll
-    - MathJax
-    - GitHub Pages
+    - github-pages
+    - mathjax
+    - translation
+    - jekyll
 mathjax: true
 ---
 
 이 글은 MathJax 를 GitHub Pages Jekyll blog 에 추가하는 방법을 다룬다. *이탤릭체로 된 부분은 본문에는 없고 제가 따라하면서 고치거나 추가한 부분이니 참고하세요.*
- 
+
 ## 절차
 
 ### 1. 아래의 코드를 **_includes/mathjax.html** 에 추가한다.
+
 *따로 추가를 하지 않았다면 **_includes** 폴더에 **mathjax.html** 이라는 파일이 없을 겁니다.
 그런 경우에는 파일을 추가해야 합니다.*
 
@@ -70,13 +71,13 @@ mathjax: true
 
 ### 3. MathJax 를 사용하고자 하는 글의 YAML front matter 부분에 다음 코드 추가하기
 
-```
+```markdown
 mathjax: true
 ```
 
 YAML front matter 부분에 아래와 같이 `mathjax` 를 추가하면 된다. [Disqus](https://disqus.com/) 또한 [동일한 방법](https://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html)으로 추가했다.
 
-```
+```markdown
 ---
 layout: post
 mathjax: true  # mathjax 의 사용 여부를 나타내는 부분
@@ -91,7 +92,7 @@ categories: github jekyll
 [MathJax dynamic preview](https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic-2.html) 를 이용하면 복잡한 공식도
 보다 쉽게 만들 수 있을 것이다.
 
-```
+```markdown
 In N-dimensional simplex noise, the squared kernel summation radius $r^2$ is $\frac 1 2$
 for all values of N. This is because the edge length of the N-simplex $s = \sqrt {\frac {N} {N + 1}}$
 divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.

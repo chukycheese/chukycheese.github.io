@@ -2,13 +2,13 @@
 layout: post
 title: 통계학도감 - 9장 회귀분석
 date: 2019-01-03 00:30:00
+toc: true
+toc_sticky: true
 category:
-    - statspedia
-    - Python
+    - statistics
 tags:
-    - Statistics
-    - Python
-    - Regression Analysis
+    - regression
+    - python
 mathjax: true
 ---
 
@@ -28,11 +28,11 @@ mathjax: true
 10. 기울기 더미: 질의 차이를 설명하는 변수
 11. 프로빗 분석: 더미변수를 이용한 회귀분석
 
-```
+```bash
 !pip install --upgrade -q gspread
 ```
 
-## 1. 회귀분석
+## 회귀분석
 
 회귀분석은 변수 x(원인)가 변수 y(결과)에 주는 영향을 알기 위한 방법이다. 변수 x와 변수 y 사이에 있는 관계를 직선 또는 곡선의 식으로 나타낸 것을 회귀선이라고 한다.
 
@@ -40,7 +40,6 @@ mathjax: true
 
 * 회귀분석을 이용하면 **원인이 결과에 주는 영향의 정도를 수치화할 수 있고** 예측 등에 이용할 수 있다.
 * **추정된 관계(회귀선)가 통계적으로 의미있는 것인지 아닌지를 확인할 수 있다**.
-
 
 ```python
 import numpy as np
@@ -61,15 +60,13 @@ plt.show()
 print('Correlation \n', np.corrcoef(marketing, sales))
 ```
 
-
 ![png](/images/Ch9_regression_analysis_files/Ch9_regression_analysis_4_0.png)
 
-
+```text
     Correlation 
      [[1.         0.96068706]
      [0.96068706 1.        ]]
-    
-
+```
 
 ```python
 # sci-kit learn 라이브러리에서 linear_model 모듈 불러오기
@@ -96,15 +93,14 @@ plt.axis([0, 40, 0, 100])
 plt.show()
 ```
 
+```text
     Coefficients: 
      [2.02931856]
     Mean squared error: 34.72
     Variance score: 0.92
-    
-
+```
 
 ![png](/images/Ch9_regression_analysis_files/Ch9_regression_analysis_5_1.png)
-
 
 ### 회귀식의 이론 모델
 
@@ -123,30 +119,26 @@ $$ \hat{y} = \hat{\beta_0} + \hat{\beta_1} x $$
 * $\hat{\beta_0}$ : $\beta_0$ 의 추정치
 * $\hat{\beta_1}$ : $\beta_1$ 의 추정치
 
-
 #### 파라미터와 추정값
 
 * 파라미터는 수치가 들어가는 것은 알고 있지만 아직 어떤값이 될지 모른다는 것을 나타낸다.
 * 추정값은 구체적인 수치를 알고 있는 것으로 취급한다. (불편추정량과 기호는 같지만 의미는 다르다.)
-
 
 ## 2. 최소제곱법 (OLS; Ordinary Least Squares)
 
 * 최소제곱법은 회귀선의 파라미터 값을 추정하는 방법 중 하나이다.
 * 잔차($\hat{\epsilon}$) 란 관측값과 예측값의 차이($y - \hat{y}$) 을 말한다.
 
-
 1. 관측데이터($x_i, y_i$) 에 잘 들어맞는 직선을 긋고 싶다.
 2. 회귀선과 관측 데이터까지의 잔차를 최소로 한다.
 3. 잔차를 제곱해서 더하고 (잔차제곱합, SSR) 그것이 최소가 되도록 절편과 기울기를 선택한다.
 4. 회귀선이 추정된다.
 
+### SST = SSR + SSE
 
-**SST = SSR + SSE**
-
-* SST(Total Sum of Squared) : $ \sum_i^n{(y_i - \bar{y})^2} $
-* SSR(Residual Sum of Squared) : $ \sum_1^n{\epsilon_i^2} = \sum_i^n{(\hat{y}_i - \bar{y})^2} $
-* SSE(Error Sum of Squared) : $ \sum_i^n (y_i - \hat{y_i})^2$
+* SST(Total Sum of Squared) : $\sum_i^n{(y_i - \bar{y})^2}$
+* SSR(Residual Sum of Squared) : $\sum_1^n{\epsilon_i^2} = \sum_i^n{(\hat{y}_i - \bar{y})^2}$
+* SSE(Error Sum of Squared) : $\sum_i^n (y_i - \hat{y_i})^2$
 
 ### 최소제곱법으로 추정값 구하는 법(단순회귀의 경우)
 
@@ -155,34 +147,26 @@ $$ \hat{y} = \hat{\beta_0} + \hat{\beta_1} x $$
 * 편미분의 기호는 '$d$' 가 아니라 '$\partial$'을 이용한다.
 * 하나의 변수에 대해 편미분할 때 그 이외의 변수는 상수로 취급한다.
 * 그런데 함수 J 를 $\hat{\beta_0}$ 와 $\hat{\beta_1}$에 대해 각각 편미분하면 다음과 같다.
-  * $\frac{\partial J}{\partial \hat{\beta_0}} = \sum \frac{\partial}{\partial \beta_0} (y_i - \beta_0 - \beta_1 x_i)^2 =  $
+  * $\frac{\partial J}{\partial \hat{\beta_0}} = \sum \frac{\partial}{\partial \beta_0} (y_i - \beta_0 - \beta_1 x_i)^2$
 
-## 3. 결정계수: 회귀선의 정확도를 평가한다.
+## 3. 결정계수: 회귀선의 정확도를 평가한다
 
 결정계수는 추정된 회귀선이 얼마나 관측 데이터에 들어맞을지(어느 정도의 적합성을 갖고 있을지)를 가늠하는 지표이다. 0에서 1 사이의 값을 취하며, 1에 가까울수록 전체 변동에서 추정된 회귀선으로 설명할 수 있는 변동이 높다는 말이다.
 
-단순선형회귀에서의 결정계수는 관측값(y)과 예측값($\hat{y}$)의 상관계수의 제곱과 같다.
+단순선형회귀에서의 결정계수는 관측값($y$)과 예측값($\hat{y}$)의 상관계수의 제곱과 같다.
 
-$$R^2 = \frac{예측값으로 설명되는 변동}{전체 변동} = \frac{\sum(\hat{y_i} - \bar{y})^2}{\sum(y_i - \bar{y})^2}$$
+$$ R^2 = \frac{예측값으로 설명되는 변동}{전체 변동} = \frac{\sum(\hat{y_i} - \bar{y})^2}{\sum(y_i - \bar{y})^2} $$
 
 ![Coefficient of determination](https://www.researchgate.net/profile/Christian_Gold2/publication/322398615/figure/fig17/AS:581620512903169@1515680544091/Visualization-of-SSE-SSR-SST.png)
-
-
-
 
 ```python
 # 결정계수
 model.score(marketing.reshape(-1, 1), sales)
 ```
 
+> 0.9229196312391211
 
-
-
-    0.9229196312391211
-
-
-
-## 4. t 검정: 추정된 회귀선의 기울기를 검정한다.
+## 4. t 검정: 추정된 회귀선의 기울기를 검정한다
 
 추정된 회귀계수가 0과 같은 경우, 변수 x는 변수 y 의 원인이라고 할 수 없다. 이를 통계적으로 확인하기 위해 $H_0 : \beta_1 = 0\ vs\ H_1: \beta_1 \ne 0$ 으로 해서 가설검정을 한다.
 
@@ -194,7 +178,6 @@ model.score(marketing.reshape(-1, 1), sales)
 * $\hat{\beta_1}$ 은 평균이 $\beta_1$이고 분산이 $\frac{\sigma^2}{\sum({x_i - \bar{x}})^2}$ 인 정규분포를 따른다. 여기서 $\sigma^2$ 은 오차항의 분산을 나타낸다.
 * 그러나 오차항의 분산($\sigma^2$) 을 아직 모르므로 잔차($\hat{e_i}^2$) 를 사용해 표본에서 추정한다($\sigma^2 => \hat{\sigma^2} = \frac{\sum\hat{e_i}^2}{n - 2}$). 여기서 $n - 2$ 는 $\sum\hat{e_i}^2$ 의 자유도이다.
 * $\hat{\sigma}^2$ 을 이용해서 $\hat{\beta_1}$ 의 준표준화변량(t값)을 구하면 $t = \frac{\hat{\beta_1} - \beta_1}{\sqrt{\hat{\sigma}^2 / \sum(x_i - \bar{x})^2}}$ 이 된다. 이것은 자유도 $n  2 $ 인 t 분포를 따른다.
-
 
 1. 가설 설정
     * $H_0 : \beta_1 = 0$
@@ -217,8 +200,6 @@ model.score(marketing.reshape(-1, 1), sales)
 4. 잔차에는 특정한 패턴이 보이지 않아야한다.
 5. 이상치가 없어야한다.
 
-
-
 ```python
 import seaborn as sns
 
@@ -226,28 +207,18 @@ resid = sales - sales_pred
 sns.residplot(sales_pred, resid, lowess = True, color = 'g')
 ```
 
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x7f70cd3f4b00>
-
-
-
-
 ![png](/images/Ch9_regression_analysis_files/Ch9_regression_analysis_12_1.png)
-
 
 ## 6. 다중회귀분석: 원인이 여럿일 때의 회귀분석
 
 설명변수가 여러 개 있을 경우는 다중회귀분석을 이용한다. 설명변수의 수가 다른 회귀식의 적합도를 비교할 경우에는 자유도 조정이 끝난 결정계수(Adjusted $R^2$)를 이용한다.
 
-**편회귀계수**
+### 편회귀계수
 
 * 다중회귀분석의 회귀계수를 *편회귀계수*라고 한다.
 * 편회귀계수는 회귀식에 포함되는 다른 변수의 영향을 제거한 후의 (다른 변수를 '일정'으로 했을 때의), 해당 설명변수가 반응변수에 주는 영향을 나타낸다.
 
 $$ y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \epsilon$$
-
 
 * 설명변수가 두 개인 경우 회귀선이 아니라 회귀평면으로 추정한다.
 
@@ -255,9 +226,7 @@ $$ y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \epsilon$$
 
 $$ \hat{y} = \hat{\beta_0} + \hat{\beta_1}x_1 + \hat{\beta_2}x_2$$
 
-
-
-**표준편회귀계수**
+### 표준편회귀계수
 
 * 모든 변수(설명변수, 반응변수)를 표준화해서 중회귀분석을 했을 때의 회귀계수이다.
 
@@ -266,8 +235,7 @@ $$ \frac{y - \bar{y}}{Sy} = \beta_1\frac{x_1 - \bar{x_1}}{Sx_1} + \beta_2\frac{x
 * 단위가 다른 설명변수 간에 회귀계수의 크기를 비교할 경우에 사용한다.
 * 표준화된 반응변수의 평균값은 0이기 때문에 절편 $\beta_0$ 도 0이다.
 
-
-**자유도가 조정된 결정계수(Adjusted $R^2$)**
+### 자유도가 조정된 결정계수(Adjusted $R^2$)
 
 * 결정계수는 설명변수를 늘리면 값이 커지는 결점이 있다.
 * 그래서 변수를 추가해도 결정계수의 값이 증가하지 않도록 고안한 지표가 *자유도 조정 결정계수(Adjusted $R^2$)* 이다.
@@ -275,9 +243,6 @@ $$ \frac{y - \bar{y}}{Sy} = \beta_1\frac{x_1 - \bar{x_1}}{Sx_1} + \beta_2\frac{x
 * 자유도가 조정된 결정계수는 거의 통계분석용 소프트웨어에서 출력되지만, 결정계수로도 간단히 구할 수 있다.
 
 $$Adjusted \ R^2 = 1 - (1 - R^2)\frac{n - 1}{n - k - 1}$$
-
-
-
 
 ```python
 import numpy as np
@@ -299,6 +264,7 @@ print(model1.summary())
 print(model2.summary())
 ```
 
+```text
                  dept    Crime_pers    Crime_prop   Literacy     Donations  \
     count   86.000000     86.000000     86.000000  86.000000     86.000000   
     mean    46.883721  19754.406977   7843.058140  39.255814   7075.546512   
@@ -393,21 +359,21 @@ print(model2.summary())
     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
     [2] The condition number is large, 1.55e+03. This might indicate that there are
     strong multicollinearity or other numerical problems.
-    
+```
 
 ## 7. 다중공선성: 설명변수 간의 문제
 
 * 설명변수들 간에 높은 상관관계(다중공선성)가 있을 경우, 회귀계수가 기대한 부호(+, -)가 되지 않는 등 결과를 해석하기 어려워질 수가 있다.
 * 다중공선성을 발견하려면 VIF(Variance Inflation Factor; 분산팽창요인)와 허용도라는 지표를 이용한다.
 
-**설명변수 간의 관련**
+### 설명변수 간의 관련
 
 * 설명변수 간에 강한 관련성이 있을 때, *다중공선성*이 있다고 한다.
 * 특히 변수 $x_1$과 변수 $x_2$ 사이에 완전한 상관관계(상관계수 = 1)가 있을 때, *완전 다중공선성*이 생겼다고 한다. 이 경우에는 추정이 불가능하다(어느 한쪽의 변수를 회귀식에서 제거해야 한다).
 * 여러 설명변수들 사이에서 한 설명변수를 다른 설명변수들의 함수로 나타낼 수 있는 경우에도 마찬가지이다.
 * (불완전한) 다중공선성의 경우에는 추정값을 구할 수가 있다. 그러나 어떤 변수의 변동이 다른 변수의 변동에 강하게 영향을 미치기 때문에 편회귀계수의 표준오차가 커져 추정값의 신뢰도가 낮아진다.
 
-**VIF(분산팽창요인)**
+### VIF(분산팽창요인)
 
 * 다중공선성을 발견하기 위한 지표로, 회귀계수의 분산(표준오차)이 얼마나 커지는지를 나타낸다.
 
@@ -418,17 +384,14 @@ $$VIF_i  = \frac{1}{1 - R_i^2}$$
 * VIF 가 10보다 클 경우 변수를 제외하거나 합성하는 등의 대응이 필요하다.
 * 허용도(tolerance)를 이용할 경우에는 0.1 이상이면 문제가 없다고 할 수 있다.
 
-
-
-
-## 8. 변수선택법: 유효한 설명변수를 고른다.
+## 8. 변수선택법: 유효한 설명변수를 고른다
 
 * 어느 설명변수를 회귀식에 포함시킬지를 정하는 방법이다.
 * 대부분의 통계 소프트웨어는 자동적으로 변수를 선택하도록 할 수 있다.
 * 회귀식에서 변수를 삭제하는 기준, 회귀식에 변수를 t 검정의 p값(=0.1) 외에 t 값을 제곱한 F 값(=2.0) 을 많이 사용한다.
 * 일반적으로는 AIC(Akaike Information Criterion) 을 주로 사용하고, 그 외에도 BIC(Bayes Information Criterion), Likelihood Ratio Test 를 사용하기도 한다.
 
-**변수 선택 방법**
+### 변수 선택 방법
 
 * 전진선택법 (Forward Selection):설명변수가 0개인 모형부터 시작해서 변수를 하나씩 추가하는 방법
 * 후진제거법 (Backword Elimination): 모든 설명변수를 넣은 모형부터 시작해서 변수를 하나씩 제거하는 방법
@@ -442,13 +405,11 @@ $$VIF_i  = \frac{1}{1 - R_i^2}$$
 * 더미 변수(dummy variable)란 1 또는 0의 값을 취하는 변수를 의미한다.
 * 더미변수를 이용하면 집단간의 차이를 검정할 수 있다.
 
-**절편 더미를 이용한 회귀식**
+### 절편 더미를 이용한 회귀식
 
 $$y = \beta_0 + \beta_1x + \beta_2D + \epsilon$$
 
 * 계수 $\beta_2$ 가 통계적으로 유의할 때 회귀선의 절편이 집단마다 다르다.
-
-
 
 ```python
 from sklearn.datasets import load_boston
@@ -469,6 +430,7 @@ result = model.fit()
 print(result.summary())
 ```
 
+```text
                                 OLS Regression Results                            
     ==============================================================================
     Dep. Variable:                   MEDV   R-squared:                       0.741
@@ -509,7 +471,7 @@ print(result.summary())
     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
     [2] The smallest eigenvalue is 1.05e-28. This might indicate that there are
     strong multicollinearity problems or that the design matrix is singular.
-    
+```
 
 ## 10. 기울기 더미: 질의 차이를 설명하는 변수 (2)
 
@@ -520,12 +482,11 @@ $$y = \beta_0 + \beta_1x + \beta_2D + \beta_3 Dx + \epsilon$$
 * 계수 $\beta_3$ 가 통계적으로 유의할 때 회귀선의 *기울기* 가 그룹마다 다르다.
 * 절편에 차이가 없을 때는 기울기 더미만으로도 충분하다.
 
-
 ## 11. 프로빗 분석: 더미변수를 이용한 회귀분석
 
 * 반응변수가 더미변수인 경우에 이용하는 분석방법이다.
 
-**선택확률**
+### 선택 확률
 
 * 아래 그림은 자동차 구매(z = 1: 구입했다, z = 0: 구입하지 않았다)와 구입자의 소득관계를 그래프로 나타낸 것이다.
 * 반응변수가 더미변수라도 최소제곱법(OLS)에 의해 회귀선을 얻을 수 있다. 하지만 예측값이 0과 1의 범위 밖에 있을 수도 있고, 오차항의 분산도 일정하지 않으므로 OLS 를 이용한 분석은 바람직하지 않다.

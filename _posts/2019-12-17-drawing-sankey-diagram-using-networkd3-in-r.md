@@ -2,15 +2,13 @@
 layout: post
 title: R 에서 networkD3 를 이용해서 샌키 다이어그램(Sankey Diagram) 그리기
 date: 2019-12-17 00:30:00
-category: data science
+toc: true
+toc_sticky: true
+category: data-analytics
 tags:
-    - data science
+    - data-analytics
     - visualization
-    - r
-    - networkd3
-    - 시각화
-    - sankey diagram
-    - 생키 다이어그램
+    - sankey-diagram
 mathjax: true
 comment: true
 ---
@@ -126,7 +124,7 @@ links$IDtarget <- match(links$target, nodes$name) - 1
 
 ```
 
-### 그립시다!!
+### 그립시다
 
 그리는 건 오히려 어렵지 않습니다. 컬럼명을 argument 와 비슷하게 만들어 놨기 때문에 argument 에 맞게끔 컬럼명을 넣어 주시면 됩니다. 여기서는 `value` 컬럼의 값이 한 그룹에서 다른 그룹으로 이동한 `사용자의 숫자` 이기 때문에 단위를 '명' 과 비슷한 'people' 로 했습니다.
 
@@ -138,7 +136,6 @@ p <- sankeyNetwork(Links = links, Nodes = nodes,
                    Value = "value", NodeID = "name",
                    sinksRight = FALSE, units = 'people')
 p
-
 ```
 
 ![sankey](/images/2019-12-17-drawing-sankey-diagram-using-networkd3/2019-12-17-drawing-sankey-daigram-using-networkd3-in-r.png)

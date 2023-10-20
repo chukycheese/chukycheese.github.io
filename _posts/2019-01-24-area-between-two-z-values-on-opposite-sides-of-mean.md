@@ -2,12 +2,12 @@
 layout: post
 title: 29가지 통계 개념 - 평균으로부터 양쪽으로 떨어진 z-값 사이의 넓이
 date: 2019-01-24 00:30:00
+toc: true
+toc_sticky: true
 category: statistics
 tags:
     - statistics
-    - z-value
-    - z-statistics
-    - z-scores
+    - translation
 mathjax: true
 comment: true
 ---
@@ -48,7 +48,7 @@ z-값들 사이의 넓이를 구하고자 한다면, 그 두 z-값들이 평균�
 첫 번째의 경우에는 이 두 값을 더하면 되고(0.3770 + 0.1772 = 0.5542,
 두 번째 표를 이용한 경우라면 큰 값에서 작은 값을 빼면 된다(0.8770 - 0.3228 = 0.5542).
 
-**출처**
+### 출처
 
 * [Area Between Two Z Values on Opposite Sides of Mean](https://www.statisticshowto.datasciencecentral.com/area-between-two-z-values/)
 * [Video](https://youtu.be/UukxPVdAzLo)

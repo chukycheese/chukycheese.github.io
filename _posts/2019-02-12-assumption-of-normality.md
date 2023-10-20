@@ -2,13 +2,13 @@
 layout: post
 title: 번역] 29가지 통계 개념 - 정규성 가정
 date: 2019-02-11 00:30:00
+toc: true
+toc_sticky: true
 category: statistics
 tags:
     - statistics
-    - assumption of normality
-    - 정규성 가정
-    - normality test
-    - 정규성 검정
+    - translation
+    - normality
 mathjax: true
 comment: true
 ---
@@ -115,4 +115,6 @@ JB 통계량이 클수록 정규분포에서 얻은 것일 확률이 높다.
 이 검정 방법은 임의의 표본이 정규분포에서 추출된 것인지를 알려준다.
 검정 통계량 W 값을 주는데, 값이 작은 경우 주어진 데이터가 정규분포를 따르지 *않는다는* 것을 말해준다.
 
-출처: [Assumption of Normality / Normality Test](https://www.statisticshowto.datasciencecentral.com/assumption-of-normality-test/)
+### 출처
+
+[Assumption of Normality / Normality Test](https://www.statisticshowto.datasciencecentral.com/assumption-of-normality-test/)

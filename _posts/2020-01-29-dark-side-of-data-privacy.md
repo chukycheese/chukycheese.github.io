@@ -1,15 +1,14 @@
 ---
 layout: post
-title: 번역] 데이터의 어두운 면 - 개인정보 (Dark Side of Data:Privacy)
+title: 데이터의 어두운 면 - 개인정보 (Dark Side of Data:Privacy)
 date: 2020-01-29 00:30:00
-category: data privacy
+toc: true
+toc_sticky: true
+category: data-ethics
 tags:
-    - data
-    - privacy
-    - human rights
-    - data science
-    - 개인정보
-    - 데이터 사이언스
+    - data-privacy
+    - translation
+    - data-ethics
 mathjax: true
 comment: true
 ---
@@ -96,7 +95,7 @@ AI 와 머신 러닝의 가치는 높이 평가하지만, 개인정보의 측면
 
 우리 모두는 방대한 양의 데이터 소스에 접근하고, 이러한 기술적인 기회를 쉽게 이용할 수 있도록 해주는 강력한 머신러닝 툴을 이용해서 업무를 하고 있습니다. 그러나 우리는 이러한 능력은 책임을 동반하며, 데이터 윤리는 이 분야에서는 불가분한 것임을 명심해야만 합니다. 즉, 우리는 미지의 것을 최소화하고 우리의 가장 강력한 공포와 맞서 싸워야 합니다.
 
-### 해당 분야에 대한 추가적인 읽을 거리들:
+### 해당 분야에 대한 추가적인 읽을 거리들
 
 * [OECD Principles on AI](https://www.oecd.org/going-digital/ai/principles/)
 * [The Declaration — Montreal Responsible AI](https://www.montrealdeclaration-responsibleai.com/the-declaration)

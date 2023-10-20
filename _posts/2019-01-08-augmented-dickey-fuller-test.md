@@ -3,10 +3,11 @@ layout: post
 title: 29가지 통계 개념 - ADF(Augmented Dicky Fuller) 검정
 date: 2019-01-01 01:30:00
 category: 
-    - translation 
     - statistics
 tags:
     - statistics
+    - translation
+    - adf-test
 mathjax: true
 ---
 
@@ -31,7 +32,7 @@ ADF 검정은 Dickey-Fuller 검정보다 더 복잡한 모형들을 다룰 수 �
 ## 모형과 시차(lag) 선택하기
 
 **ADF 검정을 실시하기에 앞서**, 적절한 회귀 모형을 찾아내기 위해 여러분의 자료를 검사해보아야 한다.
-예를 들어, 평균이 0이 아니라면 회귀 모형에 상수항이 존재할 것이다. 
+예를 들어, 평균이 0이 아니라면 회귀 모형에 상수항이 존재할 것이다.
 기본적인 세 가지 회귀 모형은 다음과 같다:
 
 * 상수항도 없고, 추세(trend) 도 없는 경우: $\Delta y_t = Y_{y_{t-1}} + v_t$
@@ -49,7 +50,7 @@ Augmented Dickey Fuller 는 이 모형들에 **시차 차분(lagged differences)
 
 ## 소프트웨어 사용해서 구하기
 
-비록 프로그램이 검정을 대신 해준다고 해도 그 결과를 해석하는 것은 여러분의 몫이다. 
+비록 프로그램이 검정을 대신 해준다고 해도 그 결과를 해석하는 것은 여러분의 몫이다.
 일반적으로 p-value 가 0.05 보다 작으면 단위근이 존재한다는 귀무가설을 기각할 수 있는 근거가 충분하다고 할 수 있다.
 뿐만 아니라, 도표로 정리된 임계값(critical value)들과 $DF_{\tau}$ 통계량과 비교할 수도 있다.
 만일 $DF_{\tau}$ 통계량이 표의 값들보다 더 작다면, 단위근이 존재한다는 귀무가설을 기각할 수 있는 근거가 충분하다고 할 수 있다.
@@ -86,10 +87,11 @@ R 에서 다른 함수들로는 `forecast` 패키지의 *nsdiffs* 함수와 `fUn
 
 `PROC ARIMA` 에서 ADF test 를 실행하면 된다.
 
-**참고 자료**
+### 참고 자료
 
 Fuller, W. A. (1976). Introduction to Statistical Time Series. New York: John Wiley and Sons. ISBN 0-471-28715-6.
 Ogunc, A. & Hill, C. (2008) Using Excel: Companion to Principles of Econometrics, Third Edition. Retrieved January 4, 2017 from: http://econweb.tamu.edu/hwang/CLASS/Ecmt463/Lecture%20Notes/Excel/Excel_Lessons.pdf
 
+### 출처
 
-**출처:** [ADF - Augmented Dickey Fuller Test](https://www.statisticshowto.datasciencecentral.com/adf-augmented-dickey-fuller-test/)
+[ADF - Augmented Dickey Fuller Test](https://www.statisticshowto.datasciencecentral.com/adf-augmented-dickey-fuller-test/)

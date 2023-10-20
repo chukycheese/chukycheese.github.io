@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 번역] 프로그래밍 언어들의 이름을 지은 방법
+title: 프로그래밍 언어들의 이름을 지은 방법
 date: 2020-01-05 00:30:00
-category: programming laguages
+toc: true
+toc_sticky: true
+category: trivia
 tags:
-    - programming languages
-    - 프로그래밍 언어
+    - programming-languages
+    - translation
 mathjax: true
 comment: true
 ---

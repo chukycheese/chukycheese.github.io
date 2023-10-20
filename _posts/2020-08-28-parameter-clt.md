@@ -2,12 +2,11 @@
 layout: post
 title: 모수, 큰 수의 법칙, 그리고 중심극한정리
 date: 2020-08-28 00:30:00
-category: data science
+toc: true
+toc_sticky: true
+category: statistics
 tags:
     - statistics
-    - 기초통계
-    - data science
-    - 데이터 사이언스
 mathjax: true
 comment: true
 ---

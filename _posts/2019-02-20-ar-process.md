@@ -1,14 +1,15 @@
 ---
 layout: post
-title: 번역] 29가지 통계 개념 - 자기회귀 모형의 정의와 자기회귀 과정(AR Process)
+title: 29가지 통계 개념 - 자기회귀 모형의 정의와 자기회귀 과정(AR Process)
 date: 2019-02-20 00:30:00
+toc: true
+toc_sticky: true
 category: statistics
 tags:
     - statistics
-    - time series
-    - 시계열분석
-    - autoregressive
-    - 자기회귀
+    - time-series
+    - translation
+    - auto-regressive
 mathjax: true
 comment: true
 ---
@@ -43,6 +44,6 @@ AR(p) 모형은 $y_t$ 의 특정 시차(lag) 값을 독립변수(예측변수; p
 
 $y_t = \delta + \phi_1 y_{t-1} + \phi_2 y_{t-2} + ... + \phi_p y_{t-p} + \epsilon_t$
 
-* y_{t-1}, y_{t-2}, ..., y_{t-p}: p 시점 이전의 시계열 값
-* \epsilon_t: 백색잡음과정
+* $y_{t-1}, y_{t-2}, ..., y_{t-p}$: p 시점 이전의 시계열 값
+* $\epsilon_t$: 백색잡음과정
 * $\delta = (1 - \sum_i=1^p)$
