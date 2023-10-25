@@ -26,7 +26,7 @@ baseurl                  : ""
 repository               : "/chukycheese/chukycheese.github.io"
 teaser                   : "/assets/images/chukycheese profile.jpeg"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 150
 comments:
   provider               : "discus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -110,7 +110,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:chu.kyoyoung@gmail.com
+      # url: mailto:chu.kyoyoung@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
