@@ -1,6 +1,6 @@
 ---
 title: 데이터 트래킹 기깔나게 잘 하는 방법
-date: 2023-09-11
+date: 2023-09-11 00:00:00
 toc: true
 toc_sticky: true
 category: 
