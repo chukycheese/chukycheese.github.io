@@ -1,4 +1,5 @@
 ---
+layout: post
 title: GitHub 블로그에 Jupyter notebook 올리는 방법
 date: 2019-01-02
 toc: true

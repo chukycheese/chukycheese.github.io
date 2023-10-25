@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 쉽게 풀어 쓴 29가지 통계 개념(29 Statistical Concepts Explained in Simple English)
 date: 2019-01-01
 toc: true

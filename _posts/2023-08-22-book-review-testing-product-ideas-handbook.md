@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Testing Product Ideas Handbook
 date: 2023-08-22
 toc: true

@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 신입 데이터 분석가를 꿈꾸는 분들에게
-date: 2023-10-25  00:00:00
+date: 2023-10-25
 toc: true
 toc_sticky: true
 category: 
