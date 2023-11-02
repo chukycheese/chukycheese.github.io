@@ -102,7 +102,6 @@ comment: true
 - [NPR: TED Radio Hour](https://podcasts.apple.com/kr/podcast/ted-radio-hour/id523121474)
   - TED 컨퍼런스의 주제를 보다 심도있게 다루는 팟캐스트입니다
   - 유사한 주제의 강연을 묶어서 다루기도 하고, 한 강연자와 인터뷰를 하면서 보다 긴 이야기를 나누기도 합니다
-  - 강연자의 배경이 다양하기 때문에 
 
 ### 조금 더 어려운 걸 원한다면
 
