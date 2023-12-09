@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Booking.com 에서의 축차 검정 (Sequential Testing)
-date: 
+date: 2023-11-03
 toc: true
 toc_sticky: true
 category: 
