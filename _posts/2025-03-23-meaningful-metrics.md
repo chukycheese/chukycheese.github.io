@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 의미있는 지표: 데이터로 제품팀이 집중해야할 것을 뾰족하게 만든 방법
+title: 의미있는 지표\: 데이터로 제품팀이 집중해야할 것을 뾰족하게 만든 방법
 date: 2025-03-23
 toc: true
 toc_sticky: true
