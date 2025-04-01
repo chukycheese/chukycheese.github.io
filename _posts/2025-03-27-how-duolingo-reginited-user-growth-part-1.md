@@ -20,7 +20,7 @@ comment: true
 원문: [Lenny's Newsletter, How Duolingo reignited user growth](https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth)
 
 - 원문은 Substack 에서 발행 중인 Lenny's Newsletter 에 듀오링고의 전 CPO 였던 [Jorge Mazal](https://www.linkedin.com/in/jorgemazal/) 이 기고한 글입니다.
-- 원문은 하나의 글로 이루어져 있지만 편의를 위해 두 부분으로 나누었습니다.
+- 원문은 하나의 글로 이루어져 있지만 편의를 위해 여러 부분으로 나누었습니다.
 
 ---
 몇 달 전 제가 참석한 작은 행사에서 듀오링고의 전 CPO 인 Jorge Mazal 이 듀오링고의 재성장에 관한 뒷이야기를 해준 적이 있습니다. 저는 그 이야기에 되었습니다. 이전까지 단 한 번도 그정도의 성장을 들어본 적이 없었거든요. 이미 성숙한 제품에서 4.5배의 성장이 있었고, 그게 여러 개의 자그마한 제품 변화가 이를 이끌었다고 했고, 혁신적인 그로스 모델 (the Growth Model) 에 뿌리를 두고 있으며, 매우 자세한 행동에 대해서 설명해주었습니다. 그래서 저는 Jorge 에게 더 많은 사람들에게 (그리고 더 깊게) 그 이야기를 들려줄 생각이 있느냐고 물었고, 이에 동의해준 것에 매우 기쁩니다. 많은 제품들이 이미 듀오링고로부터 영감을 얻고 있으며, 이 이야기 덕분에 그런 경향이 더 크게 생길 것이라고 기대합니다. 시작하겠습니다!
