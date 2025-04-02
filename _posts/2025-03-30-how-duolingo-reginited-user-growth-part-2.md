@@ -30,6 +30,13 @@ comment: true
 
 ![jorge-picture](https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01d58ab8-30d0-4dab-bf99-772047443e44_8000x4000.png)
 
+### 관련 글
+
+- [의미있는 지표 (데이터로 제품팀이 집중해야할 것을 뾰족하게 만든 방법)](https://chukycheese.github.io/data-analytics/meaningful-metrics/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 1](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-1/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 2](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-2/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 3](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-3/)
+
 ## 3 단계: 데이터와 모델 사용하기
 
 듀오링고는 항상 데이터 수집에 뛰어난 능력을 보여줬고, 특히나 A/B 테스트의 도움도 컸습니다. 하지만 이러한 데이터를 이용하여 인사이트를 만들어 내는데에는 큰 노력을 들이지 않았었습니다. [Zynga](https://www.zynga.com/) 나 [MyFitnessPal](https://www.myfitnesspal.com/) 내부에서 데이터를 사용하던 것과 비교해봤을 때 저는 듀오링고의 데이터를 이용하여 북극성 지표 (a North Star metric) 을 찾아서 필요했던 큰 변화를 이끌어낼 수 있을 것이라고 생각했습니다.

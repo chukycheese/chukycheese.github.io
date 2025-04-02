@@ -31,6 +31,13 @@ comment: true
 
 ![jorge-picture](https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01d58ab8-30d0-4dab-bf99-772047443e44_8000x4000.png)
 
+### 관련 글
+
+- [의미있는 지표 (데이터로 제품팀이 집중해야할 것을 뾰족하게 만든 방법)](https://chukycheese.github.io/data-analytics/meaningful-metrics/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 1](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-1/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 2](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-2/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 3](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-3/)
+
 저는 2017년 말 제품 책임자 (Head of Product) 로 듀오링고에 합류하였습니다. 이미 듀오링고는 전세계에서 가장 다운로드 횟수가 높은 교육 앱이었고, 수억명의 사용자가 있었으며, "세상에서 가장 뛰어난 교육 방식을 개발하고, 모두가 이용할 수 있도록 하자" 는 미션을 충실히 지켜나가고 있었습니다. 하지만, 사용자의 성장 속도가 조금씩 느려지고 있었습니다. 2018년 중순, 일간 활성 사용자 (DAU) 의 연간 성장률은 한 자리 수였고, 듀오링고가 지난 몇 년간 폭발적으로 성장한 것을 감안한다면 문제가 있다고 여겨졌습니다. 이는 빠른 재무적 성장을 목이 빠져라 기다리고 있는 투자자들이 존재하는 스타트업들에게는 문제가 됩니다.
 
 이 글에서 저는 저희의 초반 실패 사례를 공유하고, 다시금 성장할 수 있도록 도와준 첫 번째 큰 승리와 함께 리더보드를 런칭한 것, 푸시 알림에 다시 집중한 것, 그리고 "연속 (streak)" 기능을 최적화한 것에 대해 다루려고 합니다. 제품과 마케팅 조직의 다른 여러 노력들과 함께 이러한 것들이 저희로 하여금 지난 4년 동안 4.5배의 DAU 성장을 이끌게 해주었습니다. 강력한 오가닉 (organic) 사용자의 성장 덕분에 듀오링고는 2021년 IPO 를 성공적으로 진행할 수 있었습니다.
