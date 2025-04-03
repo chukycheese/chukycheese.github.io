@@ -36,6 +36,7 @@ comment: true
 - [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 1](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-1/)
 - [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 2](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-2/)
 - [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 3](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-3/)
+- [듀오링고의 그로스 모델에 대한 오해](https://chukycheese.github.io/data-analytics/what-everyone-gets-wrong-about-the-duoling-growth-model/)
 
 ## 3 단계: 데이터와 모델 사용하기
 

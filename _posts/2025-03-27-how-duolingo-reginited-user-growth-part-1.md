@@ -37,6 +37,7 @@ comment: true
 - [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 1](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-1/)
 - [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 2](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-2/)
 - [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 3](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-3/)
+- [듀오링고의 그로스 모델에 대한 오해](https://chukycheese.github.io/data-analytics/what-everyone-gets-wrong-about-the-duoling-growth-model/)
 
 저는 2017년 말 제품 책임자 (Head of Product) 로 듀오링고에 합류하였습니다. 이미 듀오링고는 전세계에서 가장 다운로드 횟수가 높은 교육 앱이었고, 수억명의 사용자가 있었으며, "세상에서 가장 뛰어난 교육 방식을 개발하고, 모두가 이용할 수 있도록 하자" 는 미션을 충실히 지켜나가고 있었습니다. 하지만, 사용자의 성장 속도가 조금씩 느려지고 있었습니다. 2018년 중순, 일간 활성 사용자 (DAU) 의 연간 성장률은 한 자리 수였고, 듀오링고가 지난 몇 년간 폭발적으로 성장한 것을 감안한다면 문제가 있다고 여겨졌습니다. 이는 빠른 재무적 성장을 목이 빠져라 기다리고 있는 투자자들이 존재하는 스타트업들에게는 문제가 됩니다.
 

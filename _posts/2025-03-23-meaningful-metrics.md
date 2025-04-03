@@ -19,6 +19,14 @@ comment: true
 
 - 원문은 2023년 2월 17일 듀오링고의 블로그에 게시되었으며, 저자는 에린 구스타프손 박사입니다
 
+### 관련 글
+
+- [의미있는 지표 (데이터로 제품팀이 집중해야할 것을 뾰족하게 만든 방법)](https://chukycheese.github.io/data-analytics/meaningful-metrics/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 1](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-1/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 2](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-2/)
+- [듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 3](https://chukycheese.github.io/data-analytics/how-duolingo-reginited-user-growth-part-3/)
+- [듀오링고의 그로스 모델에 대한 오해](https://chukycheese.github.io/data-analytics/what-everyone-gets-wrong-about-the-duoling-growth-model/)
+
 듀오링고의 DAU 가 4배 성장할 수 있도록 도움을 준 Growth Model 에 대해 살펴보시죠!
 
 ![duo](https://blog.duolingo.com/content/images/2024/05/cover_ds-growth-model.png)
