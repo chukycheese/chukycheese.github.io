@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 절대 오차와 평균 절대 오차(MAE)
+title: (번역) 29가지 통계 개념 - 절대 오차와 평균 절대 오차(MAE)
 date: 2019-01-04 00:30:00
 toc: true
 toc_sticky: true

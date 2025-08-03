@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 데이터의 어두운 면 - 개인정보 (Dark Side of Data:Privacy)
+title: (번역) 데이터의 어두운 면 - 개인정보 (Dark Side of Data:Privacy)
 date: 2020-01-29 00:30:00
 toc: true
 toc_sticky: true

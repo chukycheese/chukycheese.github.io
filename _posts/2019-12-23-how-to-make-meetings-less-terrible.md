@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 회의를 덜 끔찍하게 만드는 방법
+title: (번역) 회의를 덜 끔찍하게 만드는 방법
 date: 2019-12-23 00:30:00
 toc: true
 toc_sticky: true

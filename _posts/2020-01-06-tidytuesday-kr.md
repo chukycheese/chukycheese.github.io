@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tidy Tuesday 이벤트에 대한 소개
+title: (번역) Tidy Tuesday 이벤트에 대한 소개
 date: 2020-01-06 00:30:00
 toc: true
 toc_sticky: true

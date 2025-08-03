@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - ADF(Augmented Dicky Fuller) 검정
+title: (번역) 29가지 통계 개념 - ADF(Augmented Dicky Fuller) 검정
 date: 2019-01-01 01:30:00
 toc: true
 toc_sticky: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 듀오링고의 그로스 모델에 대한 오해
+title: (번역) 듀오링고의 그로스 모델에 대한 오해
 date: 2025-04-03
 toc: true
 toc_sticky: true

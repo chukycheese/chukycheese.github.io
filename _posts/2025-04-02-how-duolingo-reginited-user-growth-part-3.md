@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 3
+title: (번역) 듀오링고가 사용자의 성장에 다시금 불을 지핀 방법 - Part 3
 date: 2025-04-02
 toc: true
 toc_sticky: true

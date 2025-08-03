@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 독립성 가정
+title: (번역) 29가지 통계 개념 - 독립성 가정
 date: 2019-02-07 01:00:00
 toc: true
 toc_sticky: true

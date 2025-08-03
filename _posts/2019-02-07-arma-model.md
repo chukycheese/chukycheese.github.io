@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - ARMA 모형
+title: (번역) 29가지 통계 개념 - ARMA 모형
 date: 2019-02-07 00:30:00
 toc: true
 toc_sticky: true

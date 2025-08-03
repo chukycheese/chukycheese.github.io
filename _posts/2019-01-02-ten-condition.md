@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 통계학에서의 10% 조건이란 무엇인가?
+title: (번역) 29가지 통계 개념 - 통계학에서의 10% 조건이란 무엇인가?
 date: 2019-01-02
 toc: true
 toc_sticky: true

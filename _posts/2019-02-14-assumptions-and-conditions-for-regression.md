@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 회귀분석의 가정과 조건들
+title: (번역) 29가지 통계 개념 - 회귀분석의 가정과 조건들
 date: 2019-02-14 00:30:00
 toc: true
 toc_sticky: true

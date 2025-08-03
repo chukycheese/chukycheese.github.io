@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 평균으로부터 양쪽으로 떨어진 z-값 사이의 넓이
+title: (번역) 29가지 통계 개념 - 평균으로부터 양쪽으로 떨어진 z-값 사이의 넓이
 date: 2019-01-24 00:30:00
 toc: true
 toc_sticky: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 프로그래밍 언어들의 이름을 지은 방법
+title: (번역) 프로그래밍 언어들의 이름을 지은 방법
 date: 2020-01-05 00:30:00
 toc: true
 toc_sticky: true

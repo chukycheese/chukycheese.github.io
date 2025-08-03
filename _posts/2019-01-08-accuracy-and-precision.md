@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념- 정확도와 정밀도(Accuracy and Precision)
+title: (번역) 29가지 통계 개념- 정확도와 정밀도(Accuracy and Precision)
 date: 2019-01-08 00:30:00
 toc: true
 toc_sticky: true

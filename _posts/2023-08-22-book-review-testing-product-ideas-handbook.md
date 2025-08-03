@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing Product Ideas Handbook
+title: (번역) Testing Product Ideas Handbook
 date: 2023-08-22
 toc: true
 toc_sticky: true

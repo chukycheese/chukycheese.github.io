@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 29가지 통계 개념 - 통계학에서의 68, 95, 99.7의 법칙(68 95 99.7 Rule in Statistics)
+title: (번역) 29가지 통계 개념 - 통계학에서의 68, 95, 99.7의 법칙(68 95 99.7 Rule in Statistics)
 date: 2019-01-02
 toc: true
 toc_sticky: true
